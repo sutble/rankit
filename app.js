@@ -1,17 +1,17 @@
-// Google Apps Script URL - REPLACE WITH YOUR DEPLOYED WEB APP URL
+// Google Apps Script URL
 const GOOGLE_APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzLQQ3erU1evhSi6VeyVTbrT2F3e32-oqYe9UeSds73uHvLR4e1c_S1nspEc2qz-PQ9/exec';
 
 // Global variables
 let quizData = [];
 let currentQuizDay = 1;
 let currentCategory = '';
-let currentItems = [];
 
 // Initialize the app
 document.addEventListener('DOMContentLoaded', async () => {
     await loadQuizData();
     setupQuiz();
-    setupEventListeners();
+    setupDragAndDrop();
+    setupSubmitButton();
     checkIfAlreadySubmitted();
 });
 
@@ -29,7 +29,6 @@ async function loadQuizData() {
 
 // Get current quiz day based on New York timezone
 function getCurrentQuizDay() {
-    // Get current date in NY timezone
     const now = new Date();
     const nyTime = new Intl.DateTimeFormat('en-CA', {
         timeZone: 'America/New_York',
@@ -38,15 +37,10 @@ function getCurrentQuizDay() {
         day: '2-digit'
     }).format(now);
     
-    // Set start date as today (day 1) - change this date to when you want day 1 to begin
     const startDate = '2025-06-30';
-    
-    // Calculate days difference
     const currentDate = new Date(nyTime);
     const start = new Date(startDate);
     const daysDiff = Math.floor((currentDate - start) / (1000 * 60 * 60 * 24));
-    
-    // Ensure we stay within 1-365 range, cycling through if needed
     const day = (daysDiff % 365) + 1;
     
     return day > 0 ? day : 365 + day;
@@ -63,7 +57,6 @@ function setupQuiz() {
     }
     
     currentCategory = todayQuiz.category;
-    currentItems = [...todayQuiz.items]; // Create a copy
     
     // Update UI
     document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', {
@@ -76,7 +69,7 @@ function setupQuiz() {
     document.getElementById('quiz-category').textContent = currentCategory;
     
     // Shuffle items and display
-    const shuffledItems = shuffleArray([...currentItems]);
+    const shuffledItems = shuffleArray([...todayQuiz.items]);
     displayItems(shuffledItems);
 }
 
@@ -105,12 +98,23 @@ function displayItems(items) {
         `;
         list.appendChild(li);
     });
-    
-    // Update rank numbers after any change
-    updateRankNumbers();
 }
 
-// Update rank numbers
+// Setup drag and drop with SortableJS
+function setupDragAndDrop() {
+    const list = document.getElementById('sortable-list');
+    
+    Sortable.create(list, {
+        animation: 150,
+        ghostClass: 'sortable-ghost',
+        chosenClass: 'sortable-chosen',
+        onEnd: function() {
+            updateRankNumbers();
+        }
+    });
+}
+
+// Update rank numbers after reordering
 function updateRankNumbers() {
     const items = document.querySelectorAll('.sortable-item');
     items.forEach((item, index) => {
@@ -118,33 +122,10 @@ function updateRankNumbers() {
     });
 }
 
-// Setup drag and drop event listeners
-function setupEventListeners() {
-    const list = document.getElementById('sortable-list');
-    
-    // Initialize SortableJS - works on both desktop and mobile!
-    Sortable.create(list, {
-        animation: 150,
-        ghostClass: 'sortable-ghost',
-        chosenClass: 'sortable-chosen',
-        dragClass: 'sortable-drag',
-        delay: 100, // CRITICAL: Touch delay for mobile
-        delayOnTouchOnly: true, // Only delay on touch devices
-        touchStartThreshold: 5, // Pixels to move before drag starts
-        forceFallback: true, // Force mobile fallback for better compatibility
-        fallbackTolerance: 3, // Pixels before fallback drag starts
-        fallbackOnBody: true, // Append ghost to body for better mobile handling
-        fallbackClass: 'sortable-fallback', // Class for fallback ghost
-        swapThreshold: 0.65, // Threshold for swapping elements
-        onEnd: function() {
-            updateRankNumbers();
-        }
-    });
-    
-    // Submit button
+// Setup submit button
+function setupSubmitButton() {
     document.getElementById('submit-btn').addEventListener('click', submitRankings);
 }
-
 
 // Generate or retrieve session ID
 function getOrCreateSessionId() {
@@ -179,7 +160,7 @@ async function submitRankings() {
     try {
         const response = await fetch(GOOGLE_APPS_SCRIPT_URL, {
             method: 'POST',
-            mode: 'no-cors', // Important for Google Apps Script
+            mode: 'no-cors',
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -193,8 +174,6 @@ async function submitRankings() {
             })
         });
         
-        // Since we're using no-cors mode, we can't read the response
-        // Assume success if no error is thrown
         handleSubmissionSuccess();
         
     } catch (error) {
@@ -225,12 +204,11 @@ function showMessage(text, type) {
     const messageEl = document.getElementById('message');
     messageEl.textContent = text;
     messageEl.className = `message ${type}`;
-    messageEl.style.display = 'block';
     
     // Auto-hide error messages after 5 seconds
     if (type === 'error') {
         setTimeout(() => {
-            messageEl.style.display = 'none';
+            messageEl.className = 'message';
         }, 5000);
     }
 }
