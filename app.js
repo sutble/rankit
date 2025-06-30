@@ -128,6 +128,14 @@ function setupEventListeners() {
         ghostClass: 'sortable-ghost',
         chosenClass: 'sortable-chosen',
         dragClass: 'sortable-drag',
+        delay: 100, // CRITICAL: Touch delay for mobile
+        delayOnTouchOnly: true, // Only delay on touch devices
+        touchStartThreshold: 5, // Pixels to move before drag starts
+        forceFallback: true, // Force mobile fallback for better compatibility
+        fallbackTolerance: 3, // Pixels before fallback drag starts
+        fallbackOnBody: true, // Append ghost to body for better mobile handling
+        fallbackClass: 'sortable-fallback', // Class for fallback ghost
+        swapThreshold: 0.65, // Threshold for swapping elements
         onEnd: function() {
             updateRankNumbers();
         }

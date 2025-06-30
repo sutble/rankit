@@ -81,6 +81,8 @@ main {
     width: 100%;
     max-width: 350px;
     margin-bottom: 24px;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
 }
 
 .sortable-list {
@@ -88,6 +90,8 @@ main {
     gap: 5px;
     display: flex;
     flex-direction: column;
+    touch-action: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .sortable-item {
@@ -99,10 +103,15 @@ main {
     display: flex;
     align-items: center;
     transition: all 0.1s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     color: #ffffff;
     position: relative;
     height: 58px;
+    touch-action: pan-y;
+    -webkit-touch-callout: none;
 }
 
 .sortable-item:hover {
@@ -120,6 +129,13 @@ main {
 .sortable-drag {
     transform: rotate(5deg);
     opacity: 0.8;
+}
+
+.sortable-fallback {
+    opacity: 0.8 !important;
+    transform: rotate(5deg) !important;
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3) !important;
+    z-index: 9999 !important;
 }
 
 .rank-number {
