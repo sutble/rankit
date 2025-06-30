@@ -1,0 +1,1829 @@
+{
+  "categories": [
+    {
+      "day": 1,
+      "category": "Classic Movies",
+      "items": ["The Godfather", "Casablanca", "Citizen Kane", "Gone with the Wind", "Lawrence of Arabia", "Vertigo", "The Wizard of Oz"]
+    },
+    {
+      "day": 2,
+      "category": "Pizza Toppings",
+      "items": ["Pepperoni", "Mushrooms", "Sausage", "Bell Peppers", "Onions", "Olives", "Pineapple", "Bacon"]
+    },
+    {
+      "day": 3,
+      "category": "Dog Breeds",
+      "items": ["Golden Retriever", "German Shepherd", "Labrador", "Bulldog", "Poodle", "Beagle", "Rottweiler"]
+    },
+    {
+      "day": 4,
+      "category": "Marvel Superheroes",
+      "items": ["Spider-Man", "Iron Man", "Captain America", "Thor", "Hulk", "Black Widow", "Doctor Strange", "Wolverine"]
+    },
+    {
+      "day": 5,
+      "category": "Ice Cream Flavors",
+      "items": ["Vanilla", "Chocolate", "Strawberry", "Mint Chocolate Chip", "Cookies and Cream", "Rocky Road", "Neapolitan"]
+    },
+    {
+      "day": 6,
+      "category": "World Capitals",
+      "items": ["Paris", "London", "Tokyo", "New York", "Rome", "Sydney", "Cairo", "Moscow"]
+    },
+    {
+      "day": 7,
+      "category": "Social Media Platforms",
+      "items": ["Instagram", "TikTok", "Facebook", "Twitter", "YouTube", "LinkedIn", "Snapchat"]
+    },
+    {
+      "day": 8,
+      "category": "Car Brands",
+      "items": ["Toyota", "BMW", "Mercedes-Benz", "Ford", "Honda", "Audi", "Volkswagen", "Tesla"]
+    },
+    {
+      "day": 9,
+      "category": "Coffee Drinks",
+      "items": ["Espresso", "Cappuccino", "Latte", "Americano", "Mocha", "Macchiato", "Frappuccino"]
+    },
+    {
+      "day": 10,
+      "category": "Disney Animated Movies",
+      "items": ["The Lion King", "Beauty and the Beast", "Frozen", "The Little Mermaid", "Aladdin", "Moana", "Encanto"]
+    },
+    {
+      "day": 11,
+      "category": "Breakfast Foods",
+      "items": ["Pancakes", "Eggs Benedict", "French Toast", "Cereal", "Bagels", "Oatmeal", "Bacon and Eggs"]
+    },
+    {
+      "day": 12,
+      "category": "Music Genres",
+      "items": ["Rock", "Pop", "Hip-Hop", "Jazz", "Classical", "Country", "Electronic", "R&B"]
+    },
+    {
+      "day": 13,
+      "category": "Smartphone Brands",
+      "items": ["Apple iPhone", "Samsung Galaxy", "Google Pixel", "OnePlus", "Xiaomi", "Huawei", "Sony Xperia"]
+    },
+    {
+      "day": 14,
+      "category": "Netflix Original Series",
+      "items": ["Stranger Things", "The Crown", "Ozark", "House of Cards", "Orange Is the New Black", "Narcos", "Black Mirror"]
+    },
+    {
+      "day": 15,
+      "category": "Pasta Shapes",
+      "items": ["Spaghetti", "Penne", "Fusilli", "Lasagna", "Fettuccine", "Rigatoni", "Macaroni", "Linguine"]
+    },
+    {
+      "day": 16,
+      "category": "Olympic Sports",
+      "items": ["Swimming", "Track and Field", "Gymnastics", "Basketball", "Soccer", "Tennis", "Cycling"]
+    },
+    {
+      "day": 17,
+      "category": "Video Game Consoles",
+      "items": ["PlayStation 5", "Xbox Series X", "Nintendo Switch", "Steam Deck", "PlayStation 4", "Xbox One", "Nintendo Wii"]
+    },
+    {
+      "day": 18,
+      "category": "Sandwich Types",
+      "items": ["BLT", "Grilled Cheese", "Club Sandwich", "Reuben", "Philly Cheesesteak", "Panini", "Submarine"]
+    },
+    {
+      "day": 19,
+      "category": "Board Games",
+      "items": ["Monopoly", "Scrabble", "Chess", "Clue", "Risk", "Settlers of Catan", "Ticket to Ride"]
+    },
+    {
+      "day": 20,
+      "category": "Streaming Services",
+      "items": ["Netflix", "Amazon Prime", "Disney+", "HBO Max", "Hulu", "Apple TV+", "Paramount+"]
+    },
+    {
+      "day": 21,
+      "category": "Desserts",
+      "items": ["Chocolate Cake", "Cheesecake", "Tiramisu", "Apple Pie", "Brownies", "Ice Cream Sundae", "Crème Brûlée"]
+    },
+    {
+      "day": 22,
+      "category": "Home Improvement Projects",
+      "items": ["Kitchen Renovation", "Bathroom Remodel", "Painting Walls", "Landscaping", "Flooring Upgrade", "Deck Building", "Closet Organization"]
+    },
+    {
+      "day": 23,
+      "category": "Fashion Brands",
+      "items": ["Nike", "Adidas", "Gucci", "Louis Vuitton", "Chanel", "Prada", "Zara", "H&M"]
+    },
+    {
+      "day": 24,
+      "category": "TV Sitcoms",
+      "items": ["Friends", "The Office", "Seinfeld", "How I Met Your Mother", "The Big Bang Theory", "Parks and Recreation", "Modern Family"]
+    },
+    {
+      "day": 25,
+      "category": "Tropical Fruits",
+      "items": ["Mango", "Pineapple", "Papaya", "Passion Fruit", "Dragon Fruit", "Coconut", "Guava"]
+    },
+    {
+      "day": 26,
+      "category": "Exercise Types",
+      "items": ["Running", "Weight Lifting", "Yoga", "Swimming", "Cycling", "Pilates", "CrossFit", "Dancing"]
+    },
+    {
+      "day": 27,
+      "category": "Airline Companies",
+      "items": ["Delta", "American Airlines", "United", "Southwest", "JetBlue", "Alaska Airlines", "Emirates"]
+    },
+    {
+      "day": 28,
+      "category": "Cooking Methods",
+      "items": ["Grilling", "Baking", "Frying", "Steaming", "Roasting", "Sautéing", "Braising"]
+    },
+    {
+      "day": 29,
+      "category": "Harry Potter Characters",
+      "items": ["Harry Potter", "Hermione Granger", "Ron Weasley", "Dumbledore", "Snape", "Hagrid", "Draco Malfoy"]
+    },
+    {
+      "day": 30,
+      "category": "Types of Cheese",
+      "items": ["Cheddar", "Mozzarella", "Brie", "Gouda", "Swiss", "Blue Cheese", "Parmesan", "Feta"]
+    },
+    {
+      "day": 31,
+      "category": "Vacation Destinations",
+      "items": ["Hawaii", "Italy", "Japan", "Greece", "France", "Thailand", "Australia", "Costa Rica"]
+    },
+    {
+      "day": 32,
+      "category": "Superhero Movies",
+      "items": ["Avengers: Endgame", "The Dark Knight", "Spider-Man: No Way Home", "Black Panther", "Wonder Woman", "Guardians of the Galaxy", "Iron Man"]
+    },
+    {
+      "day": 33,
+      "category": "Snack Foods",
+      "items": ["Potato Chips", "Pretzels", "Popcorn", "Crackers", "Nuts", "Granola Bars", "Trail Mix"]
+    },
+    {
+      "day": 34,
+      "category": "Weather Conditions",
+      "items": ["Sunny", "Rainy", "Cloudy", "Snowy", "Windy", "Foggy", "Stormy"]
+    },
+    {
+      "day": 35,
+      "category": "Book Genres",
+      "items": ["Mystery", "Romance", "Science Fiction", "Fantasy", "Biography", "Self-Help", "Horror", "Historical Fiction"]
+    },
+    {
+      "day": 36,
+      "category": "Kitchen Appliances",
+      "items": ["Microwave", "Blender", "Toaster", "Coffee Maker", "Food Processor", "Stand Mixer", "Air Fryer"]
+    },
+    {
+      "day": 37,
+      "category": "Dance Styles",
+      "items": ["Ballet", "Hip-Hop", "Salsa", "Tango", "Jazz", "Tap", "Contemporary", "Ballroom"]
+    },
+    {
+      "day": 38,
+      "category": "Types of Wine",
+      "items": ["Chardonnay", "Pinot Noir", "Cabernet Sauvignon", "Merlot", "Sauvignon Blanc", "Riesling", "Pinot Grigio"]
+    },
+    {
+      "day": 39,
+      "category": "Action Movie Stars",
+      "items": ["Dwayne Johnson", "Tom Cruise", "Jason Statham", "Vin Diesel", "Will Smith", "Keanu Reeves", "Sylvester Stallone"]
+    },
+    {
+      "day": 40,
+      "category": "Mexican Food",
+      "items": ["Tacos", "Burritos", "Quesadillas", "Enchiladas", "Nachos", "Fajitas", "Tamales", "Guacamole"]
+    },
+    {
+      "day": 41,
+      "category": "Computer Brands",
+      "items": ["Apple", "Dell", "HP", "Lenovo", "Asus", "Acer", "Microsoft Surface"]
+    },
+    {
+      "day": 42,
+      "category": "Types of Tea",
+      "items": ["Green Tea", "Black Tea", "Herbal Tea", "Earl Grey", "Chamomile", "Oolong", "White Tea"]
+    },
+    {
+      "day": 43,
+      "category": "Reality TV Shows",
+      "items": ["Survivor", "The Bachelor", "Big Brother", "The Amazing Race", "American Idol", "Dancing with the Stars", "The Voice"]
+    },
+    {
+      "day": 44,
+      "category": "Salad Ingredients",
+      "items": ["Lettuce", "Tomatoes", "Cucumbers", "Carrots", "Bell Peppers", "Onions", "Croutons", "Cheese"]
+    },
+    {
+      "day": 45,
+      "category": "Horror Movies",
+      "items": ["The Exorcist", "Halloween", "A Nightmare on Elm Street", "The Shining", "Scream", "It", "Get Out"]
+    },
+    {
+      "day": 46,
+      "category": "Fast Food Chains",
+      "items": ["McDonald's", "Burger King", "KFC", "Taco Bell", "Subway", "Pizza Hut", "Wendy's", "Domino's"]
+    },
+    {
+      "day": 47,
+      "category": "Card Games",
+      "items": ["Poker", "Blackjack", "Uno", "Bridge", "Solitaire", "Go Fish", "Crazy Eights"]
+    },
+    {
+      "day": 48,
+      "category": "Flower Types",
+      "items": ["Roses", "Tulips", "Sunflowers", "Daisies", "Lilies", "Orchids", "Carnations", "Peonies"]
+    },
+    {
+      "day": 49,
+      "category": "Romantic Comedy Movies",
+      "items": ["When Harry Met Sally", "The Princess Bride", "Pretty Woman", "You've Got Mail", "10 Things I Hate About You", "Love Actually", "Crazy, Stupid, Love"]
+    },
+    {
+      "day": 50,
+      "category": "Candy Types",
+      "items": ["Chocolate", "Gummy Bears", "Lollipops", "Hard Candy", "Licorice", "Caramel", "Peppermints"]
+    },
+    {
+      "day": 51,
+      "category": "Musical Instruments",
+      "items": ["Piano", "Guitar", "Violin", "Drums", "Flute", "Saxophone", "Trumpet", "Bass"]
+    },
+    {
+      "day": 52,
+      "category": "Types of Bread",
+      "items": ["White Bread", "Wheat Bread", "Sourdough", "Rye Bread", "Bagels", "Pita Bread", "French Bread"]
+    },
+    {
+      "day": 53,
+      "category": "Pixar Movies",
+      "items": ["Toy Story", "Finding Nemo", "The Incredibles", "Up", "Wall-E", "Monsters, Inc.", "Cars"]
+    },
+    {
+      "day": 54,
+      "category": "Types of Soup",
+      "items": ["Chicken Noodle", "Tomato", "Vegetable", "Clam Chowder", "Minestrone", "French Onion", "Split Pea"]
+    },
+    {
+      "day": 55,
+      "category": "Comedy Movies",
+      "items": ["Anchorman", "The Hangover", "Superbad", "Bridesmaids", "Ghostbusters", "Dumb and Dumber", "Wedding Crashers"]
+    },
+    {
+      "day": 56,
+      "category": "Types of Cookies",
+      "items": ["Chocolate Chip", "Oatmeal Raisin", "Sugar Cookies", "Peanut Butter", "Snickerdoodles", "Gingerbread", "Shortbread"]
+    },
+    {
+      "day": 57,
+      "category": "Sports Equipment",
+      "items": ["Basketball", "Tennis Racket", "Golf Clubs", "Baseball Bat", "Soccer Ball", "Hockey Stick", "Bowling Ball"]
+    },
+    {
+      "day": 58,
+      "category": "Types of Nuts",
+      "items": ["Almonds", "Walnuts", "Peanuts", "Cashews", "Pistachios", "Pecans", "Hazelnuts", "Brazil Nuts"]
+    },
+    {
+      "day": 59,
+      "category": "Famous Landmarks",
+      "items": ["Eiffel Tower", "Statue of Liberty", "Great Wall of China", "Taj Mahal", "Machu Picchu", "Colosseum", "Big Ben"]
+    },
+    {
+      "day": 60,
+      "category": "Types of Berries",
+      "items": ["Strawberries", "Blueberries", "Raspberries", "Blackberries", "Cranberries", "Cherries", "Grapes"]
+    },
+    {
+      "day": 61,
+      "category": "Disney Princesses",
+      "items": ["Cinderella", "Snow White", "Belle", "Ariel", "Jasmine", "Pocahontas", "Mulan", "Elsa"]
+    },
+    {
+      "day": 62,
+      "category": "Types of Fish",
+      "items": ["Salmon", "Tuna", "Cod", "Trout", "Halibut", "Mahi-Mahi", "Tilapia", "Swordfish"]
+    },
+    {
+      "day": 63,
+      "category": "Home Cleaning Products",
+      "items": ["All-Purpose Cleaner", "Bleach", "Glass Cleaner", "Dish Soap", "Laundry Detergent", "Floor Cleaner", "Disinfectant"]
+    },
+    {
+      "day": 64,
+      "category": "Types of Hats",
+      "items": ["Baseball Cap", "Beanie", "Fedora", "Sun Hat", "Beret", "Cowboy Hat", "Bucket Hat"]
+    },
+    {
+      "day": 65,
+      "category": "Thriller Movies",
+      "items": ["The Silence of the Lambs", "Se7en", "Gone Girl", "The Sixth Sense", "Psycho", "North by Northwest", "Rear Window"]
+    },
+    {
+      "day": 66,
+      "category": "Types of Meat",
+      "items": ["Chicken", "Beef", "Pork", "Turkey", "Lamb", "Duck", "Fish", "Bacon"]
+    },
+    {
+      "day": 67,
+      "category": "Video Game Genres",
+      "items": ["Action", "Adventure", "Role-Playing", "Strategy", "Sports", "Racing", "Puzzle", "Simulation"]
+    },
+    {
+      "day": 68,
+      "category": "Types of Shoes",
+      "items": ["Sneakers", "Dress Shoes", "Boots", "Sandals", "High Heels", "Loafers", "Flip-Flops"]
+    },
+    {
+      "day": 69,
+      "category": "Animated TV Shows",
+      "items": ["The Simpsons", "SpongeBob SquarePants", "Family Guy", "South Park", "Rick and Morty", "Avatar: The Last Airbender", "Adventure Time"]
+    },
+    {
+      "day": 70,
+      "category": "Types of Vegetables",
+      "items": ["Broccoli", "Carrots", "Spinach", "Tomatoes", "Potatoes", "Onions", "Bell Peppers", "Corn"]
+    },
+    {
+      "day": 71,
+      "category": "Photography Styles",
+      "items": ["Portrait", "Landscape", "Street Photography", "Wildlife", "Macro", "Wedding", "Fashion", "Abstract"]
+    },
+    {
+      "day": 72,
+      "category": "Types of Pasta Sauce",
+      "items": ["Marinara", "Alfredo", "Pesto", "Carbonara", "Bolognese", "Arrabbiata", "Cacio e Pepe"]
+    },
+    {
+      "day": 73,
+      "category": "War Movies",
+      "items": ["Saving Private Ryan", "Apocalypse Now", "Platoon", "Full Metal Jacket", "Black Hawk Down", "We Were Soldiers", "The Hurt Locker"]
+    },
+    {
+      "day": 74,
+      "category": "Types of Birds",
+      "items": ["Eagle", "Owl", "Parrot", "Penguin", "Flamingo", "Peacock", "Hummingbird", "Robin"]
+    },
+    {
+      "day": 75,
+      "category": "Cooking Shows",
+      "items": ["MasterChef", "Hell's Kitchen", "Top Chef", "The Great British Bake Off", "Chopped", "Iron Chef", "Guy's Grocery Games"]
+    },
+    {
+      "day": 76,
+      "category": "Types of Gemstones",
+      "items": ["Diamond", "Ruby", "Emerald", "Sapphire", "Amethyst", "Topaz", "Opal", "Garnet"]
+    },
+    {
+      "day": 77,
+      "category": "Spy Movies",
+      "items": ["James Bond Films", "Mission: Impossible", "The Bourne Identity", "Casino Royale", "North by Northwest", "Tinker Tailor Soldier Spy", "Kingsman"]
+    },
+    {
+      "day": 78,
+      "category": "Types of Fabric",
+      "items": ["Cotton", "Silk", "Wool", "Polyester", "Linen", "Denim", "Cashmere", "Leather"]
+    },
+    {
+      "day": 79,
+      "category": "Ocean Creatures",
+      "items": ["Shark", "Whale", "Dolphin", "Octopus", "Jellyfish", "Sea Turtle", "Starfish", "Seahorse"]
+    },
+    {
+      "day": 80,
+      "category": "Types of Lighting",
+      "items": ["LED", "Incandescent", "Fluorescent", "Halogen", "Candles", "Natural Light", "Track Lighting"]
+    },
+    {
+      "day": 81,
+      "category": "Famous Painters",
+      "items": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet", "Salvador Dalí", "Michelangelo", "Frida Kahlo"]
+    },
+    {
+      "day": 82,
+      "category": "Types of Rice",
+      "items": ["White Rice", "Brown Rice", "Jasmine Rice", "Basmati Rice", "Wild Rice", "Arborio Rice", "Sushi Rice"]
+    },
+    {
+      "day": 83,
+      "category": "Adventure Movies",
+      "items": ["Indiana Jones", "Pirates of the Caribbean", "The Lord of the Rings", "Jurassic Park", "The Mummy", "National Treasure", "Tomb Raider"]
+    },
+    {
+      "day": 84,
+      "category": "Types of Flowers for Bouquets",
+      "items": ["Roses", "Lilies", "Tulips", "Peonies", "Hydrangeas", "Baby's Breath", "Carnations", "Chrysanthemums"]
+    },
+    {
+      "day": 85,
+      "category": "Gaming Platforms",
+      "items": ["Steam", "PlayStation Network", "Xbox Live", "Nintendo eShop", "Epic Games Store", "GOG", "Origin"]
+    },
+    {
+      "day": 86,
+      "category": "Types of Salad Dressing",
+      "items": ["Ranch", "Italian", "Caesar", "Thousand Island", "Balsamic Vinaigrette", "Blue Cheese", "Honey Mustard"]
+    },
+    {
+      "day": 87,
+      "category": "Disaster Movies",
+      "items": ["Titanic", "The Day After Tomorrow", "Twister", "Earthquake", "Volcano", "Deep Impact", "San Andreas"]
+    },
+    {
+      "day": 88,
+      "category": "Types of Spices",
+      "items": ["Salt", "Pepper", "Garlic Powder", "Paprika", "Cumin", "Oregano", "Basil", "Cinnamon"]
+    },
+    {
+      "day": 89,
+      "category": "Famous Authors",
+      "items": ["Stephen King", "J.K. Rowling", "Ernest Hemingway", "Agatha Christie", "Mark Twain", "William Shakespeare", "George Orwell"]
+    },
+    {
+      "day": 90,
+      "category": "Types of Weather Phenomena",
+      "items": ["Rainbow", "Lightning", "Thunder", "Tornado", "Hurricane", "Blizzard", "Hail", "Aurora"]
+    },
+    {
+      "day": 91,
+      "category": "Science Fiction Movies",
+      "items": ["Star Wars", "Blade Runner", "The Matrix", "Alien", "E.T.", "Back to the Future", "Terminator"]
+    },
+    {
+      "day": 92,
+      "category": "Types of Milk",
+      "items": ["Whole Milk", "2% Milk", "Skim Milk", "Almond Milk", "Soy Milk", "Oat Milk", "Coconut Milk"]
+    },
+    {
+      "day": 93,
+      "category": "Famous Musicians",
+      "items": ["The Beatles", "Elvis Presley", "Michael Jackson", "Madonna", "Bob Dylan", "Prince", "Queen"]
+    },
+    {
+      "day": 94,
+      "category": "Types of Clouds",
+      "items": ["Cumulus", "Stratus", "Cirrus", "Nimbus", "Cumulonimbus", "Altostratus", "Cirrostratus"]
+    },
+    {
+      "day": 95,
+      "category": "Fantasy Movies",
+      "items": ["Harry Potter", "The Lord of the Rings", "The Chronicles of Narnia", "Pan's Labyrinth", "The Princess Bride", "Willow", "The NeverEnding Story"]
+    },
+    {
+      "day": 96,
+      "category": "Types of Oils for Cooking",
+      "items": ["Olive Oil", "Vegetable Oil", "Canola Oil", "Coconut Oil", "Sesame Oil", "Avocado Oil", "Peanut Oil"]
+    },
+    {
+      "day": 97,
+      "category": "Popular YouTubers",
+      "items": ["PewDiePie", "MrBeast", "Markiplier", "James Charles", "Emma Chamberlain", "David Dobrik", "Jeffree Star"]
+    },
+    {
+      "day": 98,
+      "category": "Types of Architecture",
+      "items": ["Gothic", "Modern", "Victorian", "Art Deco", "Classical", "Baroque", "Contemporary", "Colonial"]
+    },
+    {
+      "day": 99,
+      "category": "Biographical Movies",
+      "items": ["Gandhi", "Malcolm X", "The Social Network", "Steve Jobs", "Bohemian Rhapsody", "Ray", "Walk the Line"]
+    },
+    {
+      "day": 100,
+      "category": "Types of Vinegar",
+      "items": ["White Vinegar", "Apple Cider Vinegar", "Balsamic Vinegar", "Red Wine Vinegar", "Rice Vinegar", "Champagne Vinegar", "Malt Vinegar"]
+    },
+    {
+      "day": 101,
+      "category": "Famous Comedians",
+      "items": ["Jerry Seinfeld", "Dave Chappelle", "Chris Rock", "Kevin Hart", "Amy Schumer", "Robin Williams", "Eddie Murphy"]
+    },
+    {
+      "day": 102,
+      "category": "Types of Meditation",
+      "items": ["Mindfulness", "Transcendental", "Guided", "Body Scan", "Loving-Kindness", "Zen", "Walking Meditation"]
+    },
+    {
+      "day": 103,
+      "category": "Musical Movies",
+      "items": ["The Sound of Music", "Grease", "La La Land", "Chicago", "Mamma Mia!", "West Side Story", "Hairspray"]
+    },
+    {
+      "day": 104,
+      "category": "Types of Potatoes",
+      "items": ["Russet", "Red Potatoes", "Yukon Gold", "Sweet Potatoes", "Fingerling", "Purple Potatoes", "New Potatoes"]
+    },
+    {
+      "day": 105,
+      "category": "Famous Athletes",
+      "items": ["Michael Jordan", "Serena Williams", "Tom Brady", "Usain Bolt", "Tiger Woods", "LeBron James", "Cristiano Ronaldo"]
+    },
+    {
+      "day": 106,
+      "category": "Types of Knots",
+      "items": ["Square Knot", "Bowline", "Clove Hitch", "Sheet Bend", "Figure Eight", "Trucker's Hitch", "Slip Knot"]
+    },
+    {
+      "day": 107,
+      "category": "Zombie Movies",
+      "items": ["Dawn of the Dead", "28 Days Later", "Shaun of the Dead", "World War Z", "Night of the Living Dead", "Zombieland", "Train to Busan"]
+    },
+    {
+      "day": 108,
+      "category": "Types of Honey",
+      "items": ["Wildflower", "Clover", "Orange Blossom", "Manuka", "Acacia", "Buckwheat", "Lavender"]
+    },
+    {
+      "day": 109,
+      "category": "Famous Inventors",
+      "items": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Wright Brothers", "Steve Jobs", "Benjamin Franklin", "Marie Curie"]
+    },
+    {
+      "day": 110,
+      "category": "Types of Storms",
+      "items": ["Thunderstorm", "Hurricane", "Tornado", "Blizzard", "Ice Storm", "Dust Storm", "Hailstorm"]
+    },
+    {
+      "day": 111,
+      "category": "Heist Movies",
+      "items": ["Ocean's Eleven", "The Italian Job", "Heat", "Baby Driver", "Now You See Me", "The Town", "Inside Man"]
+    },
+    {
+      "day": 112,
+      "category": "Types of Seaweed",
+      "items": ["Nori", "Kelp", "Wakame", "Dulse", "Sea Lettuce", "Kombu", "Hijiki"]
+    },
+    {
+      "day": 113,
+      "category": "Famous TV Hosts",
+      "items": ["Oprah Winfrey", "Ellen DeGeneres", "Jimmy Fallon", "Stephen Colbert", "David Letterman", "Jay Leno", "Conan O'Brien"]
+    },
+    {
+      "day": 114,
+      "category": "Types of Mushrooms",
+      "items": ["Button Mushrooms", "Portobello", "Shiitake", "Oyster Mushrooms", "Cremini", "Chanterelle", "Morel"]
+    },
+    {
+      "day": 115,
+      "category": "Road Trip Movies",
+      "items": ["Thelma & Louise", "Little Miss Sunshine", "Almost Famous", "National Lampoon's Vacation", "Easy Rider", "Rain Man", "Green Book"]
+    },
+    {
+      "day": 116,
+      "category": "Types of Crackers",
+      "items": ["Saltines", "Graham Crackers", "Ritz Crackers", "Wheat Thins", "Triscuits", "Cheese Crackers", "Water Crackers"]
+    },
+    {
+      "day": 117,
+      "category": "Famous Directors",
+      "items": ["Steven Spielberg", "Martin Scorsese", "Christopher Nolan", "Quentin Tarantino", "Alfred Hitchcock", "Stanley Kubrick", "Francis Ford Coppola"]
+    },
+    {
+      "day": 118,
+      "category": "Types of Engines",
+      "items": ["V8", "V6", "4-Cylinder", "Diesel", "Electric", "Hybrid", "Rotary", "Turbo"]
+    },
+    {
+      "day": 119,
+      "category": "Coming-of-Age Movies",
+      "items": ["The Breakfast Club", "Stand by Me", "Sixteen Candles", "Ferris Bueller's Day Off", "Dead Poets Society", "The Outsiders", "Fast Times at Ridgemont High"]
+    },
+    {
+      "day": 120,
+      "category": "Types of Berries for Baking",
+      "items": ["Blueberries", "Strawberries", "Raspberries", "Blackberries", "Cranberries", "Cherries", "Gooseberries"]
+    },
+    {
+      "day": 121,
+      "category": "Famous Chefs",
+      "items": ["Gordon Ramsay", "Julia Child", "Anthony Bourdain", "Emeril Lagasse", "Wolfgang Puck", "Rachael Ray", "Bobby Flay"]
+    },
+    {
+      "day": 122,
+      "category": "Types of Wood",
+      "items": ["Oak", "Pine", "Maple", "Cherry", "Walnut", "Cedar", "Mahogany", "Birch"]
+    },
+    {
+      "day": 123,
+      "category": "Prison Movies",
+      "items": ["The Shawshank Redemption", "Cool Hand Luke", "The Green Mile", "Escape from Alcatraz", "Dead Man Walking", "The Great Escape", "Papillon"]
+    },
+    {
+      "day": 124,
+      "category": "Types of Peppers",
+      "items": ["Bell Peppers", "Jalapeño", "Habanero", "Serrano", "Poblano", "Chipotle", "Ghost Pepper"]
+    },
+    {
+      "day": 125,
+      "category": "Famous Scientists",
+      "items": ["Albert Einstein", "Isaac Newton", "Charles Darwin", "Marie Curie", "Stephen Hawking", "Galileo Galilei", "Nikola Tesla"]
+    },
+    {
+      "day": 126,
+      "category": "Types of Camping Gear",
+      "items": ["Tent", "Sleeping Bag", "Backpack", "Camping Stove", "Lantern", "Cooler", "First Aid Kit"]
+    },
+    {
+      "day": 127,
+      "category": "Sports Movies",
+      "items": ["Rocky", "The Karate Kid", "Field of Dreams", "Rudy", "Remember the Titans", "Hoosiers", "Miracle"]
+    },
+    {
+      "day": 128,
+      "category": "Types of Citrus Fruits",
+      "items": ["Oranges", "Lemons", "Limes", "Grapefruits", "Tangerines", "Clementines", "Blood Oranges"]
+    },
+    {
+      "day": 129,
+      "category": "Famous Explorers",
+      "items": ["Christopher Columbus", "Marco Polo", "Lewis and Clark", "Ernest Shackleton", "Vasco da Gama", "Ferdinand Magellan", "Jacques Cousteau"]
+    },
+    {
+      "day": 130,
+      "category": "Types of Fishing",
+      "items": ["Fly Fishing", "Deep Sea Fishing", "Ice Fishing", "Surf Fishing", "Freshwater Fishing", "Trolling", "Cast Net Fishing"]
+    },
+    {
+      "day": 131,
+      "category": "Western Movies",
+      "items": ["The Good, the Bad and the Ugly", "Unforgiven", "Butch Cassidy and the Sundance Kid", "The Magnificent Seven", "True Grit", "3:10 to Yuma", "Tombstone"]
+    },
+    {
+      "day": 132,
+      "category": "Types of Grains",
+      "items": ["Rice", "Wheat", "Oats", "Barley", "Quinoa", "Corn", "Rye", "Millet"]
+    },
+    {
+      "day": 133,
+      "category": "Famous Philosophers",
+      "items": ["Socrates", "Plato", "Aristotle", "Immanuel Kant", "Friedrich Nietzsche", "John Stuart Mill", "Confucius"]
+    },
+    {
+      "day": 134,
+      "category": "Types of Exercise Equipment",
+      "items": ["Treadmill", "Dumbbells", "Exercise Bike", "Elliptical", "Resistance Bands", "Yoga Mat", "Pull-up Bar"]
+    },
+    {
+      "day": 135,
+      "category": "Animated Movies (Non-Disney)",
+      "items": ["Shrek", "Ice Age", "Madagascar", "How to Train Your Dragon", "The Incredibles", "Despicable Me", "Rio"]
+    },
+    {
+      "day": 136,
+      "category": "Types of Onions",
+      "items": ["Yellow Onions", "Red Onions", "White Onions", "Sweet Onions", "Shallots", "Green Onions", "Pearl Onions"]
+    },
+    {
+      "day": 137,
+      "category": "Famous Historical Figures",
+      "items": ["Abraham Lincoln", "Winston Churchill", "Napoleon Bonaparte", "Cleopatra", "Alexander the Great", "Joan of Arc", "George Washington"]
+    },
+    {
+      "day": 138,
+      "category": "Types of Sushi",
+      "items": ["California Roll", "Spicy Tuna Roll", "Salmon Roll", "Philadelphia Roll", "Dragon Roll", "Rainbow Roll", "Tempura Roll"]
+    },
+    {
+      "day": 139,
+      "category": "Crime Movies",
+      "items": ["The Godfather", "Goodfellas", "Scarface", "Pulp Fiction", "Casino", "The Departed", "Donnie Brasco"]
+    },
+    {
+      "day": 140,
+      "category": "Types of Squash",
+      "items": ["Butternut Squash", "Acorn Squash", "Spaghetti Squash", "Delicata Squash", "Kabocha Squash", "Pattypan Squash", "Yellow Squash"]
+    },
+    {
+      "day": 141,
+      "category": "Famous Architects",
+      "items": ["Frank Lloyd Wright", "Le Corbusier", "Frank Gehry", "Zaha Hadid", "I.M. Pei", "Louis Kahn", "Antoni Gaudí"]
+    },
+    {
+      "day": 142,
+      "category": "Types of Pasta Fillings",
+      "items": ["Cheese", "Spinach and Ricotta", "Meat", "Mushroom", "Seafood", "Pesto", "Butternut Squash"]
+    },
+    {
+      "day": 143,
+      "category": "Christmas Movies",
+      "items": ["Home Alone", "Elf", "A Christmas Story", "It's a Wonderful Life", "The Polar Express", "Love Actually", "Die Hard"]
+    },
+    {
+      "day": 144,
+      "category": "Types of Apples",
+      "items": ["Red Delicious", "Granny Smith", "Gala", "Fuji", "Honeycrisp", "Golden Delicious", "Braeburn"]
+    },
+    {
+      "day": 145,
+      "category": "Famous Fashion Designers",
+      "items": ["Coco Chanel", "Giorgio Armani", "Versace", "Calvin Klein", "Ralph Lauren", "Donna Karan", "Marc Jacobs"]
+    },
+    {
+      "day": 146,
+      "category": "Types of Cocktails",
+      "items": ["Martini", "Margarita", "Mojito", "Manhattan", "Old Fashioned", "Daiquiri", "Cosmopolitan", "Piña Colada"]
+    },
+    {
+      "day": 147,
+      "category": "Drama Movies",
+      "items": ["The Shawshank Redemption", "Forrest Gump", "One Flew Over the Cuckoo's Nest", "12 Angry Men", "Schindler's List", "To Kill a Mockingbird", "The Pursuit of Happyness"]
+    },
+    {
+      "day": 148,
+      "category": "Types of Melons",
+      "items": ["Watermelon", "Cantaloupe", "Honeydew", "Casaba", "Crenshaw", "Galia", "Persian"]
+    },
+    {
+      "day": 149,
+      "category": "Famous Composers",
+      "items": ["Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Johann Sebastian Bach", "Frederic Chopin", "Claude Debussy", "Pyotr Ilyich Tchaikovsky", "Antonio Vivaldi"]
+    },
+    {
+      "day": 150,
+      "category": "Types of Beer",
+      "items": ["Lager", "IPA", "Stout", "Ale", "Pilsner", "Wheat Beer", "Porter", "Sour Beer"]
+    },
+    {
+      "day": 151,
+      "category": "Teen Movies",
+      "items": ["Mean Girls", "Clueless", "High School Musical", "Bring It On", "She's All That", "10 Things I Hate About You", "Easy A"]
+    },
+    {
+      "day": 152,
+      "category": "Types of Lettuce",
+      "items": ["Iceberg", "Romaine", "Arugula", "Spinach", "Butter Lettuce", "Red Leaf", "Green Leaf"]
+    },
+    {
+      "day": 153,
+      "category": "Famous Actors",
+      "items": ["Tom Hanks", "Meryl Streep", "Leonardo DiCaprio", "Denzel Washington", "Robert De Niro", "Julia Roberts", "Brad Pitt"]
+    },
+    {
+      "day": 154,
+      "category": "Types of Cereal",
+      "items": ["Cheerios", "Frosted Flakes", "Lucky Charms", "Fruit Loops", "Corn Flakes", "Rice Krispies", "Cap'n Crunch"]
+    },
+    {
+      "day": 155,
+      "category": "Independent Movies",
+      "items": ["Pulp Fiction", "The Royal Tenenbaums", "Little Miss Sunshine", "Juno", "Lost in Translation", "Napoleon Dynamite", "Garden State"]
+    },
+    {
+      "day": 156,
+      "category": "Types of Olives",
+      "items": ["Kalamata", "Green Olives", "Black Olives", "Castelvetrano", "Picholine", "Cerignola", "Manzanilla"]
+    },
+    {
+      "day": 157,
+      "category": "Famous Athletes (Female)",
+      "items": ["Serena Williams", "Simone Biles", "Megan Rapinoe", "Ronda Rousey", "Maria Sharapova", "Danica Patrick", "Lindsey Vonn"]
+    },
+    {
+      "day": 158,
+      "category": "Types of Salads",
+      "items": ["Caesar Salad", "Greek Salad", "Cobb Salad", "Waldorf Salad", "Caprese Salad", "Taco Salad", "Nicoise Salad"]
+    },
+    {
+      "day": 159,
+      "category": "Superhero TV Shows",
+      "items": ["The Flash", "Arrow", "Daredevil", "The Walking Dead", "Agents of S.H.I.E.L.D.", "Gotham", "Supergirl"]
+    },
+    {
+      "day": 160,
+      "category": "Types of Pickles",
+      "items": ["Dill Pickles", "Sweet Pickles", "Bread and Butter Pickles", "Kosher Pickles", "Gherkin Pickles", "Spicy Pickles", "Polish Pickles"]
+    },
+    {
+      "day": 161,
+      "category": "Famous TV Dramas",
+      "items": ["Breaking Bad", "The Sopranos", "Mad Men", "The Wire", "Game of Thrones", "Lost", "24"]
+    },
+    {
+      "day": 162,
+      "category": "Types of Pancakes",
+      "items": ["Buttermilk Pancakes", "Blueberry Pancakes", "Chocolate Chip Pancakes", "Banana Pancakes", "Whole Wheat Pancakes", "Protein Pancakes", "Silver Dollar Pancakes"]
+    },
+    {
+      "day": 163,
+      "category": "Famous Singers (Female)",
+      "items": ["Beyoncé", "Taylor Swift", "Adele", "Lady Gaga", "Rihanna", "Ariana Grande", "Whitney Houston"]
+    },
+    {
+      "day": 164,
+      "category": "Types of Burgers",
+      "items": ["Cheeseburger", "Bacon Burger", "Mushroom Swiss Burger", "BBQ Burger", "Veggie Burger", "Turkey Burger", "Slider"]
+    },
+    {
+      "day": 165,
+      "category": "Medical TV Shows",
+      "items": ["Grey's Anatomy", "House", "ER", "Scrubs", "Chicago Med", "The Good Doctor", "New Amsterdam"]
+    },
+    {
+      "day": 166,
+      "category": "Types of Muffins",
+      "items": ["Blueberry Muffins", "Banana Nut Muffins", "Chocolate Chip Muffins", "Bran Muffins", "Lemon Poppy Seed Muffins", "Apple Cinnamon Muffins", "Double Chocolate Muffins"]
+    },
+    {
+      "day": 167,
+      "category": "Famous Singers (Male)",
+      "items": ["Elvis Presley", "Michael Jackson", "Frank Sinatra", "John Lennon", "Freddie Mercury", "Bob Dylan", "Prince"]
+    },
+    {
+      "day": 168,
+      "category": "Types of Steak Cuts",
+      "items": ["Ribeye", "Filet Mignon", "New York Strip", "T-Bone", "Porterhouse", "Sirloin", "Flank Steak"]
+    },
+    {
+      "day": 169,
+      "category": "Police TV Shows",
+      "items": ["Law & Order", "CSI", "NCIS", "Criminal Minds", "Brooklyn Nine-Nine", "The Wire", "True Detective"]
+    },
+    {
+      "day": 170,
+      "category": "Types of Bagels",
+      "items": ["Plain Bagels", "Everything Bagels", "Sesame Bagels", "Poppy Seed Bagels", "Cinnamon Raisin Bagels", "Onion Bagels", "Blueberry Bagels"]
+    },
+    {
+      "day": 171,
+      "category": "Famous Talk Show Hosts",
+      "items": ["Oprah Winfrey", "Johnny Carson", "David Letterman", "Jay Leno", "Conan O'Brien", "Jimmy Fallon", "Ellen DeGeneres"]
+    },
+    {
+      "day": 172,
+      "category": "Types of Donuts",
+      "items": ["Glazed Donuts", "Chocolate Frosted Donuts", "Jelly Filled Donuts", "Boston Cream Donuts", "Old Fashioned Donuts", "Cake Donuts", "Cruller"]
+    },
+    {
+      "day": 173,
+      "category": "Science Fiction TV Shows",
+      "items": ["Star Trek", "Doctor Who", "The X-Files", "Battlestar Galactica", "Firefly", "Stargate", "The Twilight Zone"]
+    },
+    {
+      "day": 174,
+      "category": "Types of Pie",
+      "items": ["Apple Pie", "Pumpkin Pie", "Cherry Pie", "Pecan Pie", "Lemon Meringue Pie", "Key Lime Pie", "Blueberry Pie"]
+    },
+    {
+      "day": 175,
+      "category": "Famous News Anchors",
+      "items": ["Walter Cronkite", "Anderson Cooper", "Tom Brokaw", "Dan Rather", "Peter Jennings", "Diane Sawyer", "Katie Couric"]
+    },
+    {
+      "day": 176,
+      "category": "Types of Cupcakes",
+      "items": ["Vanilla Cupcakes", "Chocolate Cupcakes", "Red Velvet Cupcakes", "Lemon Cupcakes", "Carrot Cupcakes", "Funfetti Cupcakes", "Strawberry Cupcakes"]
+    },
+    {
+      "day": 177,
+      "category": "Fantasy TV Shows",
+      "items": ["Game of Thrones", "The Lord of the Rings: The Rings of Power", "The Witcher", "Stranger Things", "American Gods", "The Magicians", "Once Upon a Time"]
+    },
+    {
+      "day": 178,
+      "category": "Types of Smoothies",
+      "items": ["Berry Smoothie", "Green Smoothie", "Tropical Smoothie", "Protein Smoothie", "Chocolate Peanut Butter Smoothie", "Mango Smoothie", "Banana Smoothie"]
+    },
+    {
+      "day": 179,
+      "category": "Famous Game Show Hosts",
+      "items": ["Alex Trebek", "Pat Sajak", "Bob Barker", "Regis Philbin", "Steve Harvey", "Wayne Brady", "Drew Carey"]
+    },
+    {
+      "day": 180,
+      "category": "Types of Waffles",
+      "items": ["Belgian Waffles", "Buttermilk Waffles", "Blueberry Waffles", "Chocolate Chip Waffles", "Strawberry Waffles", "Pecan Waffles", "Whole Grain Waffles"]
+    },
+    {
+      "day": 181,
+      "category": "Historical TV Shows",
+      "items": ["The Crown", "Downton Abbey", "Mad Men", "Boardwalk Empire", "Vikings", "Rome", "Outlander"]
+    },
+    {
+      "day": 182,
+      "category": "Types of Wraps",
+      "items": ["Chicken Caesar Wrap", "Turkey Club Wrap", "Veggie Wrap", "Buffalo Chicken Wrap", "Tuna Salad Wrap", "BLT Wrap", "Hummus Wrap"]
+    },
+    {
+      "day": 183,
+      "category": "Famous Sports Commentators",
+      "items": ["John Madden", "Howard Cosell", "Bob Costas", "Al Michaels", "Jim Nantz", "Joe Buck", "Mike Tirico"]
+    },
+    {
+      "day": 184,
+      "category": "Types of Omelettes",
+      "items": ["Cheese Omelette", "Western Omelette", "Mushroom Omelette", "Spinach Omelette", "Ham and Cheese Omelette", "Veggie Omelette", "Denver Omelette"]
+    },
+    {
+      "day": 185,
+      "category": "Comedy TV Shows",
+      "items": ["Seinfeld", "Friends", "The Office", "Parks and Recreation", "Arrested Development", "30 Rock", "Brooklyn Nine-Nine"]
+    },
+    {
+      "day": 186,
+      "category": "Types of French Fries",
+      "items": ["Regular Fries", "Curly Fries", "Sweet Potato Fries", "Steak Fries", "Shoestring Fries", "Waffle Fries", "Seasoned Fries"]
+    },
+    {
+      "day": 187,
+      "category": "Famous Weather Forecasters",
+      "items": ["Al Roker", "Jim Cantore", "Stephanie Abrams", "Mike Bettes", "Reynolds Wolf", "Sam Champion", "Ginger Zee"]
+    },
+    {
+      "day": 188,
+      "category": "Types of Quiche",
+      "items": ["Quiche Lorraine", "Spinach Quiche", "Mushroom Quiche", "Broccoli Cheddar Quiche", "Ham and Swiss Quiche", "Seafood Quiche", "Veggie Quiche"]
+    },
+    {
+      "day": 189,
+      "category": "Adventure TV Shows",
+      "items": ["Lost", "Survivor", "The Amazing Race", "Bear Grylls: Man vs. Wild", "Expedition Unknown", "Naked and Afraid", "Deadliest Catch"]
+    },
+    {
+      "day": 190,
+      "category": "Types of Pretzels",
+      "items": ["Soft Pretzels", "Hard Pretzels", "Pretzel Rolls", "Cinnamon Sugar Pretzels", "Cheese Pretzels", "Honey Mustard Pretzels", "Chocolate Covered Pretzels"]
+    },
+    {
+      "day": 191,
+      "category": "Famous Radio Hosts",
+      "items": ["Howard Stern", "Rush Limbaugh", "Ryan Seacrest", "Delilah", "Sean Hannity", "Glenn Beck", "Elvis Duran"]
+    },
+    {
+      "day": 192,
+      "category": "Types of Crackers",
+      "items": ["Saltines", "Graham Crackers", "Ritz Crackers", "Wheat Thins", "Triscuits", "Cheez-Its", "Goldfish"]
+    },
+    {
+      "day": 193,
+      "category": "Mystery TV Shows",
+      "items": ["Sherlock", "Columbo", "Murder, She Wrote", "Agatha Christie's Poirot", "The Mentalist", "Psych", "Monk"]
+    },
+    {
+      "day": 194,
+      "category": "Types of Granola Bars",
+      "items": ["Oats 'n Honey", "Chocolate Chip", "Peanut Butter", "Mixed Berry", "Almond", "Coconut", "Dark Chocolate"]
+    },
+    {
+      "day": 195,
+      "category": "Famous Podcasters",
+      "items": ["Joe Rogan", "Marc Maron", "Sarah Koenig", "Ira Glass", "Tim Ferriss", "Bill Simmons", "Conan O'Brien"]
+    },
+    {
+      "day": 196,
+      "category": "Types of Chips",
+      "items": ["Potato Chips", "Tortilla Chips", "Corn Chips", "Pita Chips", "Veggie Chips", "Kettle Chips", "Baked Chips"]
+    },
+    {
+      "day": 197,
+      "category": "Western TV Shows",
+      "items": ["Deadwood", "Westworld", "Gunsmoke", "Bonanza", "The Lone Ranger", "Maverick", "Hell on Wheels"]
+    },
+    {
+      "day": 198,
+      "category": "Types of Jerky",
+      "items": ["Beef Jerky", "Turkey Jerky", "Pork Jerky", "Salmon Jerky", "Venison Jerky", "Chicken Jerky", "Bison Jerky"]
+    },
+    {
+      "day": 199,
+      "category": "Famous Late Night Hosts",
+      "items": ["Johnny Carson", "David Letterman", "Jay Leno", "Conan O'Brien", "Jimmy Fallon", "Jimmy Kimmel", "Stephen Colbert"]
+    },
+    {
+      "day": 200,
+      "category": "Types of Popcorn",
+      "items": ["Butter Popcorn", "Caramel Corn", "Cheese Popcorn", "Kettle Corn", "Chicago Mix", "Chocolate Drizzled Popcorn", "Spicy Popcorn"]
+    },
+    {
+      "day": 201,
+      "category": "Reality Competition Shows",
+      "items": ["American Idol", "The Voice", "Dancing with the Stars", "So You Think You Can Dance", "Top Chef", "Project Runway", "The Great British Bake Off"]
+    },
+    {
+      "day": 202,
+      "category": "Types of Trail Mix",
+      "items": ["Classic Trail Mix", "Tropical Trail Mix", "Chocolate Trail Mix", "Nut and Seed Mix", "Dried Fruit Mix", "Spicy Trail Mix", "Protein Trail Mix"]
+    },
+    {
+      "day": 203,
+      "category": "Famous Cartoon Characters",
+      "items": ["Mickey Mouse", "Bugs Bunny", "SpongeBob SquarePants", "Homer Simpson", "Scooby-Doo", "Tom and Jerry", "Garfield"]
+    },
+    {
+      "day": 204,
+      "category": "Types of Energy Bars",
+      "items": ["Protein Bars", "Granola Bars", "Meal Replacement Bars", "Nut Bars", "Fruit Bars", "Chocolate Bars", "Fiber Bars"]
+    },
+    {
+      "day": 205,
+      "category": "Talent Competition Shows",
+      "items": ["America's Got Talent", "The Voice", "American Idol", "The X Factor", "So You Think You Can Dance", "The Masked Singer", "Dancing with the Stars"]
+    },
+    {
+      "day": 206,
+      "category": "Types of Gum",
+      "items": ["Spearmint", "Peppermint", "Cinnamon", "Bubble Gum", "Winterfresh", "Fruit Flavored", "Sugar-Free"]
+    },
+    {
+      "day": 207,
+      "category": "Famous Cartoon Shows",
+      "items": ["The Simpsons", "Family Guy", "South Park", "Rick and Morty", "Avatar: The Last Airbender", "SpongeBob SquarePants", "Adventure Time"]
+    },
+    {
+      "day": 208,
+      "category": "Types of Nuts for Snacking",
+      "items": ["Almonds", "Peanuts", "Cashews", "Pistachios", "Walnuts", "Pecans", "Macadamia Nuts"]
+    },
+    {
+      "day": 209,
+      "category": "Dating Reality Shows",
+      "items": ["The Bachelor", "The Bachelorette", "Love Island", "The Dating Game", "Married at First Sight", "90 Day Fiancé", "Love Is Blind"]
+    },
+    {
+      "day": 210,
+      "category": "Types of Mints",
+      "items": ["Peppermint", "Spearmint", "Wintergreen", "Cinnamon", "Chocolate Mint", "Breath Mints", "After Dinner Mints"]
+    },
+    {
+      "day": 211,
+      "category": "Famous Animated Characters",
+      "items": ["Shrek", "Woody", "Buzz Lightyear", "Elsa", "Simba", "Nemo", "Lightning McQueen"]
+    },
+    {
+      "day": 212,
+      "category": "Types of Dried Fruit",
+      "items": ["Raisins", "Dried Cranberries", "Dried Apricots", "Dried Mango", "Dried Pineapple", "Dried Dates", "Dried Figs"]
+    },
+    {
+      "day": 213,
+      "category": "Home Renovation Shows",
+      "items": ["Fixer Upper", "Property Brothers", "This Old House", "Extreme Makeover: Home Edition", "Love It or List It", "House Hunters", "Flip or Flop"]
+    },
+    {
+      "day": 214,
+      "category": "Types of Candy Bars",
+      "items": ["Snickers", "Kit Kat", "Twix", "Milky Way", "3 Musketeers", "Butterfinger", "Crunch Bar"]
+    },
+    {
+      "day": 215,
+      "category": "Famous Video Game Characters",
+      "items": ["Mario", "Link", "Sonic the Hedgehog", "Pac-Man", "Master Chief", "Lara Croft", "Pikachu"]
+    },
+    {
+      "day": 216,
+      "category": "Types of Chocolate",
+      "items": ["Milk Chocolate", "Dark Chocolate", "White Chocolate", "Semi-Sweet Chocolate", "Bittersweet Chocolate", "Ruby Chocolate", "Unsweetened Chocolate"]
+    },
+    {
+      "day": 217,
+      "category": "Travel Shows",
+      "items": ["Anthony Bourdain: No Reservations", "Bizarre Foods", "Globe Trekker", "Rick Steves' Europe", "Samantha Brown's Places to Love", "The Amazing Race", "Travel Channel"]
+    },
+    {
+      "day": 218,
+      "category": "Types of Gummy Candy",
+      "items": ["Gummy Bears", "Gummy Worms", "Sour Gummies", "Gummy Rings", "Swedish Fish", "Haribo", "Fruit Snacks"]
+    },
+    {
+      "day": 219,
+      "category": "Famous Superheroes",
+      "items": ["Superman", "Batman", "Spider-Man", "Wonder Woman", "The Flash", "Green Lantern", "Captain America"]
+    },
+    {
+      "day": 220,
+      "category": "Types of Hard Candy",
+      "items": ["Lollipops", "Jolly Ranchers", "Life Savers", "Butterscotch", "Peppermints", "Lemon Drops", "Rock Candy"]
+    },
+    {
+      "day": 221,
+      "category": "Food Network Shows",
+      "items": ["Chopped", "Iron Chef", "Diners, Drive-Ins and Dives", "Beat Bobby Flay", "The Pioneer Woman", "Good Eats", "Guy's Grocery Games"]
+    },
+    {
+      "day": 222,
+      "category": "Types of Licorice",
+      "items": ["Black Licorice", "Red Licorice", "Strawberry Licorice", "Cherry Licorice", "Twizzlers", "Good & Plenty", "Anise Licorice"]
+    },
+    {
+      "day": 223,
+      "category": "Famous Villains",
+      "items": ["Darth Vader", "The Joker", "Voldemort", "Sauron", "Hannibal Lecter", "Norman Bates", "Thanos"]
+    },
+    {
+      "day": 224,
+      "category": "Types of Marshmallows",
+      "items": ["Regular Marshmallows", "Mini Marshmallows", "Flavored Marshmallows", "Colored Marshmallows", "Jumbo Marshmallows", "Peeps", "Roasting Marshmallows"]
+    },
+    {
+      "day": 225,
+      "category": "Nature Shows",
+      "items": ["Planet Earth", "National Geographic", "Discovery Channel", "Animal Planet", "Blue Planet", "Our Planet", "Life"]
+    },
+    {
+      "day": 226,
+      "category": "Types of Caramel",
+      "items": ["Soft Caramel", "Hard Caramel", "Salted Caramel", "Caramel Sauce", "Caramel Apples", "Caramel Corn", "Caramel Candy"]
+    },
+    {
+      "day": 227,
+      "category": "Famous Sidekicks",
+      "items": ["Robin", "Watson", "Samwise Gamgee", "Chewbacca", "Hermione Granger", "Ron Weasley", "Tonto"]
+    },
+    {
+      "day": 228,
+      "category": "Types of Toffee",
+      "items": ["English Toffee", "Butter Toffee", "Chocolate Toffee", "Almond Toffee", "Heath Bar", "Skor Bar", "Homemade Toffee"]
+    },
+    {
+      "day": 229,
+      "category": "Game Shows",
+      "items": ["Jeopardy!", "Wheel of Fortune", "Family Feud", "The Price is Right", "Who Wants to Be a Millionaire", "Deal or No Deal", "Password"]
+    },
+    {
+      "day": 230,
+      "category": "Types of Fudge",
+      "items": ["Chocolate Fudge", "Peanut Butter Fudge", "Vanilla Fudge", "Maple Fudge", "Rocky Road Fudge", "Mint Fudge", "White Chocolate Fudge"]
+    },
+    {
+      "day": 231,
+      "category": "Famous Robots",
+      "items": ["R2-D2", "C-3PO", "WALL-E", "The Terminator", "Optimus Prime", "Data", "Robby the Robot"]
+    },
+    {
+      "day": 232,
+      "category": "Types of Brittle",
+      "items": ["Peanut Brittle", "Almond Brittle", "Cashew Brittle", "Pecan Brittle", "Sesame Brittle", "Sunflower Seed Brittle", "Mixed Nut Brittle"]
+    },
+    {
+      "day": 233,
+      "category": "Documentary Shows",
+      "items": ["Making a Murderer", "Tiger King", "The Last Dance", "Wild Wild Country", "Free Solo", "Won't You Be My Neighbor?", "March of the Penguins"]
+    },
+    {
+      "day": 234,
+      "category": "Types of Taffy",
+      "items": ["Salt Water Taffy", "Banana Taffy", "Strawberry Taffy", "Chocolate Taffy", "Vanilla Taffy", "Cherry Taffy", "Apple Taffy"]
+    },
+    {
+      "day": 235,
+      "category": "Famous Duos",
+      "items": ["Batman and Robin", "Laurel and Hardy", "Abbott and Costello", "Simon and Garfunkel", "Bonnie and Clyde", "Romeo and Juliet", "Peanut Butter and Jelly"]
+    },
+    {
+      "day": 236,
+      "category": "Types of Divinity",
+      "items": ["Traditional Divinity", "Chocolate Divinity", "Peppermint Divinity", "Nut Divinity", "Colored Divinity", "Sea Foam", "Honey Divinity"]
+    },
+    {
+      "day": 237,
+      "category": "Children's Shows",
+      "items": ["Sesame Street", "Mister Rogers' Neighborhood", "Blue's Clues", "Dora the Explorer", "Thomas the Tank Engine", "Teletubbies", "Barney"]
+    },
+    {
+      "day": 238,
+      "category": "Types of Nougat",
+      "items": ["French Nougat", "Italian Torrone", "Spanish Turron", "Soft Nougat", "Hard Nougat", "Chocolate Nougat", "Nut Nougat"]
+    },
+    {
+      "day": 239,
+      "category": "Famous Trios",
+      "items": ["The Three Stooges", "Harry, Ron, and Hermione", "The Three Musketeers", "Snap, Crackle, and Pop", "Huey, Dewey, and Louie", "The Powerpuff Girls", "Charlie's Angels"]
+    },
+    {
+      "day": 240,
+      "category": "Types of Pralines",
+      "items": ["Pecan Pralines", "Almond Pralines", "Chocolate Pralines", "Coconut Pralines", "Maple Pralines", "Bourbon Pralines", "Cream Pralines"]
+    },
+    {
+      "day": 241,
+      "category": "News Shows",
+      "items": ["60 Minutes", "Meet the Press", "CNN Anderson Cooper 360", "Fox News", "NBC Nightly News", "CBS Evening News", "ABC World News"]
+    },
+    {
+      "day": 242,
+      "category": "Types of Marzipan",
+      "items": ["Almond Marzipan", "Fruit-Shaped Marzipan", "Chocolate-Covered Marzipan", "Colored Marzipan", "Marzipan Cake Decorations", "German Marzipan", "Marzipan Candy"]
+    },
+    {
+      "day": 243,
+      "category": "Famous Fictional Cities",
+      "items": ["Gotham City", "Metropolis", "Springfield", "Stars Hollow", "Pawnee", "Mystic Falls", "Twin Peaks"]
+    },
+    {
+      "day": 244,
+      "category": "Types of Turkish Delight",
+      "items": ["Rose Turkish Delight", "Lemon Turkish Delight", "Pomegranate Turkish Delight", "Pistachio Turkish Delight", "Orange Turkish Delight", "Mint Turkish Delight", "Plain Turkish Delight"]
+    },
+    {
+      "day": 245,
+      "category": "Morning Shows",
+      "items": ["Good Morning America", "Today Show", "CBS This Morning", "The View", "Live with Kelly and Ryan", "Fox & Friends", "Morning Joe"]
+    },
+    {
+      "day": 246,
+      "category": "Types of Chocolate Truffles",
+      "items": ["Dark Chocolate Truffles", "Milk Chocolate Truffles", "White Chocolate Truffles", "Champagne Truffles", "Raspberry Truffles", "Salted Caramel Truffles", "Coconut Truffles"]
+    },
+    {
+      "day": 247,
+      "category": "Famous Fictional Schools",
+      "items": ["Hogwarts", "Xavier's School for Gifted Youngsters", "Bayside High", "West Beverly High", "McKinley High", "Stars Hollow High", "Greendale Community College"]
+    },
+    {
+      "day": 248,
+      "category": "Types of Bonbons",
+      "items": ["Chocolate Bonbons", "Cream-Filled Bonbons", "Fruit Bonbons", "Liqueur Bonbons", "Nut Bonbons", "Coconut Bonbons", "Caramel Bonbons"]
+    },
+    {
+      "day": 249,
+      "category": "Educational Shows",
+      "items": ["Jeopardy!", "Who Wants to Be a Millionaire", "Are You Smarter Than a 5th Grader?", "Brain Games", "MythBusters", "How It's Made", "Modern Marvels"]
+    },
+    {
+      "day": 250,
+      "category": "Types of Peppermint Candy",
+      "items": ["Candy Canes", "Peppermint Patties", "After Eight Mints", "Junior Mints", "Peppermint Bark", "Starlight Mints", "Butter Mints"]
+    },
+    {
+      "day": 251,
+      "category": "Famous Fictional Bars",
+      "items": ["Cheers", "The Drunken Clam", "MacLaren's Pub", "The Bronze", "Moe's Tavern", "The Alibi Room", "Paddy's Pub"]
+    },
+    {
+      "day": 252,
+      "category": "Types of Rock Candy",
+      "items": ["Clear Rock Candy", "Colored Rock Candy", "Flavored Rock Candy", "String Rock Candy", "Stick Rock Candy", "Crystal Rock Candy", "Edible Gem Rock Candy"]
+    },
+    {
+      "day": 253,
+      "category": "Talk Shows",
+      "items": ["The Tonight Show", "The Late Show", "Jimmy Kimmel Live!", "Conan", "The Daily Show", "Last Week Tonight", "Saturday Night Live"]
+    },
+    {
+      "day": 254,
+      "category": "Types of Cotton Candy",
+      "items": ["Pink Cotton Candy", "Blue Cotton Candy", "Purple Cotton Candy", "Green Cotton Candy", "Yellow Cotton Candy", "Multi-Colored Cotton Candy", "Flavored Cotton Candy"]
+    },
+    {
+      "day": 255,
+      "category": "Famous Fictional Restaurants",
+      "items": ["The Krusty Krab", "Central Perk", "Monk's Cafe", "The Max", "Bob's Burgers", "The Peach Pit", "Arnold's"]
+    },
+    {
+      "day": 256,
+      "category": "Types of Candy Corn",
+      "items": ["Traditional Candy Corn", "Chocolate Candy Corn", "Caramel Apple Candy Corn", "S'mores Candy Corn", "Pumpkin Spice Candy Corn", "Indian Corn", "Harvest Mix Candy Corn"]
+    },
+    {
+      "day": 257,
+      "category": "Award Shows",
+      "items": ["The Oscars", "The Emmys", "The Grammys", "The Golden Globes", "SAG Awards", "People's Choice Awards", "MTV Video Music Awards"]
+    },
+    {
+      "day": 258,
+      "category": "Types of Chocolate Bars",
+      "items": ["Hershey's", "Cadbury", "Lindt", "Godiva", "Ghirardelli", "Toblerone", "Ferrero Rocher"]
+    },
+    {
+      "day": 259,
+      "category": "Famous Fictional Stores",
+      "items": ["The Kwik-E-Mart", "Dunder Mifflin", "Satriale's", "Floyd's Barbershop", "Gimbels", "Bloomingdale's", "The Comic Book Store"]
+    },
+    {
+      "day": 260,
+      "category": "Types of Lollipops",
+      "items": ["Dum Dums", "Blow Pops", "Tootsie Pops", "Ring Pops", "Push Pops", "Chupa Chups", "Jolly Rancher Lollipops"]
+    },
+    {
+      "day": 261,
+      "category": "Variety Shows",
+      "items": ["Saturday Night Live", "The Carol Burnett Show", "The Ed Sullivan Show", "The Tonight Show", "America's Got Talent", "The Muppet Show", "In Living Color"]
+    },
+    {
+      "day": 262,
+      "category": "Types of Sour Candy",
+      "items": ["Sour Patch Kids", "Warheads", "Sour Skittles", "Sour Gummy Worms", "Lemon Drops", "Sour Belts", "Airheads Xtremes"]
+    },
+    {
+      "day": 263,
+      "category": "Famous Fictional Planets",
+      "items": ["Tatooine", "Vulcan", "Krypton", "Pandora", "Naboo", "Hoth", "Alderaan"]
+    },
+    {
+      "day": 264,
+      "category": "Types of Fizzy Candy",
+      "items": ["Pop Rocks", "Zotz", "Fizz Wiz", "Sherbet Fountains", "Crackling Candy", "Fizzy Cola Bottles", "Space Dust"]
+    },
+    {
+      "day": 265,
+      "category": "Sports Shows",
+      "items": ["SportsCenter", "Monday Night Football", "Sunday Night Football", "College GameDay", "NBA on TNT", "MLB Tonight", "NFL RedZone"]
+    },
+    {
+      "day": 266,
+      "category": "Types of Retro Candy",
+      "items": ["Necco Wafers", "Charleston Chew", "Mary Janes", "Bit-O-Honey", "Blackjack Gum", "Clove Gum", "Wax Bottles"]
+    },
+    {
+      "day": 267,
+      "category": "Famous Fictional Vehicles",
+      "items": ["The Batmobile", "KITT", "The Mystery Machine", "The Millennium Falcon", "The Enterprise", "The DeLorean", "Herbie"]
+    },
+    {
+      "day": 268,
+      "category": "Types of Seasonal Candy",
+      "items": ["Christmas Candy", "Halloween Candy", "Easter Candy", "Valentine's Day Candy", "Fourth of July Candy", "Thanksgiving Candy", "New Year's Candy"]
+    },
+    {
+      "day": 269,
+      "category": "Late Night Shows",
+      "items": ["The Tonight Show Starring Jimmy Fallon", "The Late Show with Stephen Colbert", "Jimmy Kimmel Live!", "Conan", "The Late Late Show", "Saturday Night Live", "Last Week Tonight"]
+    },
+    {
+      "day": 270,
+      "category": "Types of Novelty Candy",
+      "items": ["Edible Jewelry", "Candy Necklaces", "Wax Lips", "Bubble Gum Cigars", "Candy Cigarettes", "Rock Candy Crystals", "Edible Flowers"]
+    },
+    {
+      "day": 271,
+      "category": "Famous Fictional Weapons",
+      "items": ["Lightsaber", "Mjolnir", "The One Ring", "Captain America's Shield", "Wonder Woman's Lasso", "Excalibur", "The Master Sword"]
+    },
+    {
+      "day": 272,
+      "category": "Types of International Candy",
+      "items": ["Japanese Kit Kats", "British Cadbury", "German Haribo", "Swiss Lindt", "Belgian Chocolates", "French Macarons", "Italian Gelato"]
+    },
+    {
+      "day": 273,
+      "category": "Animated Series for Adults",
+      "items": ["The Simpsons", "Family Guy", "South Park", "Rick and Morty", "BoJack Horseman", "Archer", "Bob's Burgers"]
+    },
+    {
+      "day": 274,
+      "category": "Types of Sugar-Free Candy",
+      "items": ["Sugar-Free Gum", "Sugar-Free Hard Candy", "Sugar-Free Chocolate", "Sugar-Free Gummies", "Sugar-Free Mints", "Sugar-Free Lollipops", "Sugar-Free Jelly Beans"]
+    },
+    {
+      "day": 275,
+      "category": "Famous Fictional Pets",
+      "items": ["Lassie", "Scooby-Doo", "Garfield", "Snoopy", "Clifford", "Brian Griffin", "Santa's Little Helper"]
+    },
+    {
+      "day": 276,
+      "category": "Types of Organic Candy",
+      "items": ["Organic Gummy Bears", "Organic Chocolate", "Organic Lollipops", "Organic Hard Candy", "Organic Fruit Snacks", "Organic Licorice", "Organic Jelly Beans"]
+    },
+    {
+      "day": 277,
+      "category": "Workplace Comedies",
+      "items": ["The Office", "Parks and Recreation", "30 Rock", "Arrested Development", "Veep", "Brooklyn Nine-Nine", "Scrubs"]
+    },
+    {
+      "day": 278,
+      "category": "Types of Vegan Candy",
+      "items": ["Vegan Chocolate", "Vegan Gummies", "Vegan Hard Candy", "Vegan Lollipops", "Vegan Caramels", "Vegan Jelly Beans", "Vegan Licorice"]
+    },
+    {
+      "day": 279,
+      "category": "Famous Fictional Houses",
+      "items": ["The White House (1600 Pennsylvania Avenue)", "Wayne Manor", "The Simpsons House", "The Brady Bunch House", "The Full House House", "Graceland", "The Addams Family Mansion"]
+    },
+    {
+      "day": 280,
+      "category": "Types of Artisan Candy",
+      "items": ["Hand-Dipped Chocolates", "Small-Batch Caramels", "Gourmet Lollipops", "Artisan Fudge", "Craft Gummies", "Boutique Truffles", "Designer Bon Bons"]
+    },
+    {
+      "day": 281,
+      "category": "Family Sitcoms",
+      "items": ["Full House", "Family Matters", "Home Improvement", "The Cosby Show", "Roseanne", "Everybody Loves Raymond", "Modern Family"]
+    },
+    {
+      "day": 282,
+      "category": "Types of Gluten-Free Candy",
+      "items": ["Gluten-Free Chocolate", "Gluten-Free Gummies", "Gluten-Free Hard Candy", "Gluten-Free Caramels", "Gluten-Free Lollipops", "Gluten-Free Jelly Beans", "Gluten-Free Licorice"]
+    },
+    {
+      "day": 283,
+      "category": "Famous Fictional Teams",
+      "items": ["The Avengers", "The Justice League", "The X-Men", "The Fantastic Four", "The A-Team", "The Power Rangers", "The Teenage Mutant Ninja Turtles"]
+    },
+    {
+      "day": 284,
+      "category": "Types of Freeze-Dried Candy",
+      "items": ["Freeze-Dried Skittles", "Freeze-Dried Ice Cream", "Freeze-Dried Fruit", "Freeze-Dried Marshmallows", "Freeze-Dried Chocolate", "Freeze-Dried Gummies", "Freeze-Dried Taffy"]
+    },
+    {
+      "day": 285,
+      "category": "Teen Drama Shows",
+      "items": ["Beverly Hills, 90210", "Dawson's Creek", "One Tree Hill", "The O.C.", "Gossip Girl", "Pretty Little Liars", "Riverdale"]
+    },
+    {
+      "day": 286,
+      "category": "Types of Edible Flowers",
+      "items": ["Violets", "Pansies", "Nasturtiums", "Roses", "Lavender", "Hibiscus", "Marigolds"]
+    },
+    {
+      "day": 287,
+      "category": "Famous Fictional Detectives",
+      "items": ["Sherlock Holmes", "Hercule Poirot", "Nancy Drew", "The Hardy Boys", "Columbo", "Jessica Fletcher", "Monk"]
+    },
+    {
+      "day": 288,
+      "category": "Types of Candy Making Techniques",
+      "items": ["Hand-Pulled Taffy", "Tempering Chocolate", "Sugar Glass", "Spun Sugar", "Caramelization", "Crystallization", "Molding"]
+    },
+    {
+      "day": 289,
+      "category": "Soap Operas",
+      "items": ["General Hospital", "The Young and the Restless", "Days of Our Lives", "The Bold and the Beautiful", "All My Children", "One Life to Live", "As the World Turns"]
+    },
+    {
+      "day": 290,
+      "category": "Types of Edible Glitter",
+      "items": ["Gold Edible Glitter", "Silver Edible Glitter", "Rainbow Edible Glitter", "Pearl Dust", "Luster Dust", "Disco Dust", "Sanding Sugar"]
+    },
+    {
+      "day": 291,
+      "category": "Famous Fictional Lawyers",
+      "items": ["Atticus Finch", "Perry Mason", "Elle Woods", "Saul Goodman", "Harvey Specter", "Ally McBeal", "Jack McCoy"]
+    },
+    {
+      "day": 292,
+      "category": "Types of Candy Decorations",
+      "items": ["Candy Flowers", "Sugar Pearls", "Chocolate Chips", "Sprinkles", "Candy Eyes", "Edible Beads", "Sugar Crystals"]
+    },
+    {
+      "day": 293,
+      "category": "Medical Dramas",
+      "items": ["Grey's Anatomy", "ER", "House", "Chicago Med", "The Good Doctor", "New Amsterdam", "The Resident"]
+    },
+    {
+      "day": 294,
+      "category": "Types of Candy Molds",
+      "items": ["Chocolate Molds", "Hard Candy Molds", "Gummy Molds", "Lollipop Molds", "Ice Cube Molds", "Silicone Molds", "Metal Molds"]
+    },
+    {
+      "day": 295,
+      "category": "Famous Fictional Doctors",
+      "items": ["Dr. House", "Dr. McDreamy", "Dr. Watson", "Dr. Jekyll", "Dr. Frankenstein", "Dr. Who", "Dr. Dolittle"]
+    },
+    {
+      "day": 296,
+      "category": "Types of Candy Packaging",
+      "items": ["Wrappers", "Boxes", "Bags", "Tins", "Jars", "Tubes", "Blister Packs"]
+    },
+    {
+      "day": 297,
+      "category": "Legal Dramas",
+      "items": ["Law & Order", "The Practice", "Boston Legal", "Suits", "How to Get Away with Murder", "The Good Wife", "Perry Mason"]
+    },
+    {
+      "day": 298,
+      "category": "Types of Candy Colors",
+      "items": ["Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Pink"]
+    },
+    {
+      "day": 299,
+      "category": "Famous Fictional Teachers",
+      "items": ["Mr. Miyagi", "Professor McGonagall", "Mr. Feeny", "Ms. Frizzle", "Mr. Keating", "Professor Dumbledore", "Mr. Hand"]
+    },
+    {
+      "day": 300,
+      "category": "Types of Candy Flavors",
+      "items": ["Cherry", "Strawberry", "Orange", "Lemon", "Grape", "Apple", "Watermelon"]
+    },
+    {
+      "day": 301,
+      "category": "Anthology Series",
+      "items": ["The Twilight Zone", "Black Mirror", "American Horror Story", "True Detective", "Fargo", "The Outer Limits", "Tales from the Crypt"]
+    },
+    {
+      "day": 302,
+      "category": "Types of Candy Textures",
+      "items": ["Smooth", "Crunchy", "Chewy", "Hard", "Soft", "Fizzy", "Creamy"]
+    },
+    {
+      "day": 303,
+      "category": "Famous Fictional Chefs",
+      "items": ["Chef Boyardee", "The Swedish Chef", "Chef Emeril", "Chef Ramsay", "Chef Julia Child", "Chef Anthony Bourdain", "Chef Paula Deen"]
+    },
+    {
+      "day": 304,
+      "category": "Types of Candy Shapes",
+      "items": ["Round", "Square", "Heart", "Star", "Animal Shapes", "Flower Shapes", "Geometric Shapes"]
+    },
+    {
+      "day": 305,
+      "category": "Miniseries",
+      "items": ["Band of Brothers", "The Pacific", "Chernobyl", "When They See Us", "The Queen's Gambit", "Watchmen", "Big Little Lies"]
+    },
+    {
+      "day": 306,
+      "category": "Types of Candy Sizes",
+      "items": ["Mini", "Regular", "King Size", "Fun Size", "Bite Size", "Jumbo", "Family Size"]
+    },
+    {
+      "day": 307,
+      "category": "Famous Fictional Musicians",
+      "items": ["Josie and the Pussycats", "The Partridge Family", "Spinal Tap", "The Monkees", "Hannah Montana", "School of Rock", "Almost Famous"]
+    },
+    {
+      "day": 308,
+      "category": "Types of Candy Occasions",
+      "items": ["Birthday", "Wedding", "Halloween", "Christmas", "Valentine's Day", "Easter", "Graduation"]
+    },
+    {
+      "day": 309,
+      "category": "Horror TV Shows",
+      "items": ["The Walking Dead", "American Horror Story", "Stranger Things", "The Haunting of Hill House", "Penny Dreadful", "Tales from the Crypt", "The X-Files"]
+    },
+    {
+      "day": 310,
+      "category": "Types of Candy Gifts",
+      "items": ["Gift Baskets", "Candy Bouquets", "Chocolate Boxes", "Candy Jars", "Personalized Candy", "Candy Grams", "Seasonal Assortments"]
+    },
+    {
+      "day": 311,
+      "category": "Famous Fictional Journalists",
+      "items": ["Lois Lane", "Peter Parker", "Clark Kent", "Veronica Mars", "Murphy Brown", "Lou Grant", "Ted Baxter"]
+    },
+    {
+      "day": 312,
+      "category": "Types of Candy Themes",
+      "items": ["Tropical", "Sour", "Sweet", "Spicy", "Minty", "Fruity", "Chocolate"]
+    },
+    {
+      "day": 313,
+      "category": "Supernatural TV Shows",
+      "items": ["Supernatural", "Buffy the Vampire Slayer", "Charmed", "The Vampire Diaries", "Teen Wolf", "The Originals", "Grimm"]
+    },
+    {
+      "day": 314,
+      "category": "Types of Candy Brands",
+      "items": ["Hershey's", "Mars", "Nestle", "Ferrero", "Mondelez", "Haribo", "Lindt"]
+    },
+    {
+      "day": 315,
+      "category": "Famous Fictional Politicians",
+      "items": ["President Bartlet", "Frank Underwood", "Leslie Knope", "Senator Palpatine", "Mayor Quimby", "President Palmer", "Governor Schwarzenegger"]
+    },
+    {
+      "day": 316,
+      "category": "Types of Candy Innovations",
+      "items": ["Pop Rocks", "Edible Glitter", "Color-Changing Candy", "Sour Then Sweet", "Liquid-Filled", "Temperature-Reactive", "Interactive Candy"]
+    },
+    {
+      "day": 317,
+      "category": "Competitive Reality Shows",
+      "items": ["Survivor", "The Amazing Race", "Big Brother", "Top Chef", "Project Runway", "The Great British Bake Off", "RuPaul's Drag Race"]
+    },
+    {
+      "day": 318,
+      "category": "Types of Candy History",
+      "items": ["Ancient Honey Treats", "Medieval Sugar Art", "Victorian Confections", "1950s Innovations", "Modern Molecular Gastronomy", "Traditional Recipes", "Cultural Sweets"]
+    },
+    {
+      "day": 319,
+      "category": "Famous Fictional Spies",
+      "items": ["James Bond", "Ethan Hunt", "Jason Bourne", "Sydney Bristow", "Jack Bauer", "Sterling Archer", "Napoleon Solo"]
+    },
+    {
+      "day": 320,
+      "category": "Types of Candy Science",
+      "items": ["Crystallization", "Caramelization", "Emulsification", "Tempering", "pH Balance", "Texture Modification", "Flavor Chemistry"]
+    },
+    {
+      "day": 321,
+      "category": "Prison TV Shows",
+      "items": ["Orange Is the New Black", "Oz", "Prison Break", "Wentworth", "Locked Up", "The Night Of", "Escape at Dannemora"]
+    },
+    {
+      "day": 322,
+      "category": "Types of Candy Trends",
+      "items": ["Artisanal Chocolates", "Gourmet Gummies", "Nostalgic Retro Candy", "Healthy Alternatives", "International Flavors", "DIY Candy Kits", "Instagrammable Treats"]
+    },
+    {
+      "day": 323,
+      "category": "Famous Fictional Businesspeople",
+      "items": ["Tony Stark", "Bruce Wayne", "Lex Luthor", "Mr. Burns", "Scrooge McDuck", "J.R. Ewing", "Gordon Gekko"]
+    },
+    {
+      "day": 324,
+      "category": "Types of Candy Controversies",
+      "items": ["Health Concerns", "Sugar Content", "Artificial Colors", "Marketing to Children", "Environmental Impact", "Fair Trade Issues", "Cultural Appropriation"]
+    },
+    {
+      "day": 325,
+      "category": "Military TV Shows",
+      "items": ["M*A*S*H", "Band of Brothers", "The Pacific", "Generation Kill", "JAG", "NCIS", "The Unit"]
+    },
+    {
+      "day": 326,
+      "category": "Types of Candy Celebrations",
+      "items": ["National Candy Day", "World Chocolate Day", "International Sweet Day", "Candy Corn Day", "Gummy Bear Day", "Caramel Day", "Fudge Day"]
+    },
+    {
+      "day": 327,
+      "category": "Famous Fictional Villains",
+      "items": ["Darth Vader", "The Joker", "Voldemort", "Hannibal Lecter", "Sauron", "Norman Bates", "Anton Chigurh"]
+    },
+    {
+      "day": 328,
+      "category": "Types of Candy Museums",
+      "items": ["Candy Factory Tours", "Chocolate Museums", "Interactive Exhibits", "Historical Displays", "Hands-On Workshops", "Tasting Rooms", "Educational Programs"]
+    },
+    {
+      "day": 329,
+      "category": "Time Travel TV Shows",
+      "items": ["Doctor Who", "Quantum Leap", "Timeless", "12 Monkeys", "Legends of Tomorrow", "Continuum", "The Time Tunnel"]
+    },
+    {
+      "day": 330,
+      "category": "Types of Candy Competitions",
+      "items": ["Chocolate Sculpting", "Candy Making Contests", "Sugar Art Competitions", "Gingerbread House Contests", "Cake Decorating", "Confectionery Championships", "Candy Bar Creation"]
+    },
+    {
+      "day": 331,
+      "category": "Famous Fictional Families",
+      "items": ["The Simpsons", "The Addams Family", "The Brady Bunch", "The Cleavers", "The Cunninghams", "The Tanners", "The Huxtables"]
+    },
+    {
+      "day": 332,
+      "category": "Types of Candy Education",
+      "items": ["Culinary Schools", "Confectionery Programs", "Online Courses", "Workshop Classes", "Apprenticeships", "Certification Programs", "Masterclasses"]
+    },
+    {
+      "day": 333,
+      "category": "Space TV Shows",
+      "items": ["Star Trek", "Battlestar Galactica", "Firefly", "Babylon 5", "Lost in Space", "The Expanse", "Star Wars: The Clone Wars"]
+    },
+    {
+      "day": 334,
+      "category": "Types of Candy Careers",
+      "items": ["Chocolatier", "Confectioner", "Pastry Chef", "Food Scientist", "Quality Control", "Candy Designer", "Flavor Chemist"]
+    },
+    {
+      "day": 335,
+      "category": "Famous Fictional Couples",
+      "items": ["Romeo and Juliet", "Ross and Rachel", "Jim and Pam", "Homer and Marge", "Luke and Leia", "Han and Leia", "Mickey and Minnie"]
+    },
+    {
+      "day": 336,
+      "category": "Types of Candy Equipment",
+      "items": ["Chocolate Tempering Machines", "Cotton Candy Machines", "Candy Molds", "Sugar Thermometers", "Candy Coating Drums", "Gummy Making Equipment", "Taffy Pullers"]
+    },
+    {
+      "day": 337,
+      "category": "Western TV Shows",
+      "items": ["Gunsmoke", "Bonanza", "The Lone Ranger", "Deadwood", "Westworld", "Hell on Wheels", "Godless"]
+    },
+    {
+      "day": 338,
+      "category": "Types of Candy Ingredients",
+      "items": ["Sugar", "Corn Syrup", "Chocolate", "Gelatin", "Pectin", "Natural Flavors", "Food Coloring"]
+    },
+    {
+      "day": 339,
+      "category": "Famous Fictional Monsters",
+      "items": ["Dracula", "Frankenstein's Monster", "The Wolfman", "The Mummy", "King Kong", "Godzilla", "The Creature from the Black Lagoon"]
+    },
+    {
+      "day": 340,
+      "category": "Types of Candy Storage",
+      "items": ["Airtight Containers", "Refrigeration", "Cool Dry Places", "Temperature Control", "Humidity Control", "Light Protection", "Proper Wrapping"]
+    },
+    {
+      "day": 341,
+      "category": "Cooking Competition Shows",
+      "items": ["Top Chef", "MasterChef", "Chopped", "Iron Chef", "The Great British Bake Off", "Hell's Kitchen", "Beat Bobby Flay"]
+    },
+    {
+      "day": 342,
+      "category": "Types of Candy Shelf Life",
+      "items": ["Chocolate (2 years)", "Hard Candy (1 year)", "Gummies (6 months)", "Caramels (6 months)", "Lollipops (1 year)", "Fudge (2 weeks)", "Fresh Truffles (2 weeks)"]
+    },
+    {
+      "day": 343,
+      "category": "Famous Fictional Restaurants",
+      "items": ["The Krusty Krab", "Central Perk", "Monk's Cafe", "The Max", "Bob's Burgers", "The Peach Pit", "Arnold's Drive-In"]
+    },
+    {
+      "day": 344,
+      "category": "Types of Candy Allergies",
+      "items": ["Nuts", "Dairy", "Gluten", "Soy", "Eggs", "Artificial Colors", "Preservatives"]
+    },
+    {
+      "day": 345,
+      "category": "Fashion TV Shows",
+      "items": ["Project Runway", "America's Next Top Model", "Making the Cut", "Next in Fashion", "The Fashion Show", "Models Inc.", "House of Style"]
+    },
+    {
+      "day": 346,
+      "category": "Types of Candy Nutritional Info",
+      "items": ["Calories", "Sugar Content", "Fat Content", "Protein", "Carbohydrates", "Vitamins", "Minerals"]
+    },
+    {
+      "day": 347,
+      "category": "Famous Fictional Supervillains",
+      "items": ["The Joker", "Lex Luthor", "Magneto", "Green Goblin", "Doctor Doom", "Loki", "Thanos"]
+    },
+    {
+      "day": 348,
+      "category": "Types of Candy Marketing",
+      "items": ["Celebrity Endorsements", "Social Media Campaigns", "Seasonal Promotions", "Product Placement", "Packaging Design", "Target Demographics", "Brand Partnerships"]
+    },
+    {
+      "day": 349,
+      "category": "Survival TV Shows",
+      "items": ["Survivor", "Naked and Afraid", "Man vs. Wild", "Alone", "The Island", "Survivorman", "Dual Survival"]
+    },
+    {
+      "day": 350,
+      "category": "Types of Candy Regulations",
+      "items": ["FDA Approval", "Labeling Requirements", "Safety Standards", "Import/Export Rules", "Advertising Guidelines", "Health Claims", "Nutritional Labeling"]
+    },
+    {
+      "day": 351,
+      "category": "Famous Fictional Heroes",
+      "items": ["Superman", "Batman", "Spider-Man", "Wonder Woman", "Captain America", "Iron Man", "The Flash"]
+    },
+    {
+      "day": 352,
+      "category": "Types of Candy Economics",
+      "items": ["Production Costs", "Retail Pricing", "Market Share", "Consumer Demand", "Seasonal Sales", "Global Trade", "Industry Trends"]
+    },
+    {
+      "day": 353,
+      "category": "Travel Competition Shows",
+      "items": ["The Amazing Race", "Race Across the World", "Expedition Impossible", "Around the World in 80 Ways", "No Opportunity Wasted", "Globe Trekker", "Departure Survival"]
+    },
+    {
+      "day": 354,
+      "category": "Types of Candy Future",
+      "items": ["3D Printed Candy", "Personalized Nutrition", "Smart Packaging", "Sustainable Ingredients", "Virtual Reality Tasting", "AI-Designed Flavors", "Lab-Grown Chocolate"]
+    },
+    {
+      "day": 355,
+      "category": "Famous Fictional Animals",
+      "items": ["Lassie", "Rin Tin Tin", "Flipper", "Free Willy", "Beethoven", "Air Bud", "Marley"]
+    },
+    {
+      "day": 356,
+      "category": "Types of Candy Legacy",
+      "items": ["Family Recipes", "Traditional Methods", "Cultural Heritage", "Generational Businesses", "Historical Significance", "Artisan Traditions", "Time-Honored Techniques"]
+    },
+    {
+      "day": 357,
+      "category": "Home Design Shows",
+      "items": ["Fixer Upper", "Property Brothers", "Love It or List It", "House Hunters", "Flip or Flop", "This Old House", "Extreme Makeover: Home Edition"]
+    },
+    {
+      "day": 358,
+      "category": "Types of Candy Innovation",
+      "items": ["New Flavors", "Texture Combinations", "Interactive Elements", "Health-Conscious Options", "Eco-Friendly Packaging", "Technology Integration", "Cultural Fusion"]
+    },
+    {
+      "day": 359,
+      "category": "Famous Fictional Robots",
+      "items": ["R2-D2", "C-3PO", "WALL-E", "The Terminator", "Data", "Optimus Prime", "Robby the Robot"]
+    },
+    {
+      "day": 360,
+      "category": "Types of Candy Nostalgia",
+      "items": ["Childhood Favorites", "Vintage Packaging", "Classic Recipes", "Retro Flavors", "Old-School Techniques", "Traditional Candy Stores", "Generational Memories"]
+    },
+    {
+      "day": 361,
+      "category": "Music Competition Shows",
+      "items": ["American Idol", "The Voice", "The X Factor", "America's Got Talent", "So You Think You Can Dance", "The Masked Singer", "Battle of the Network Stars"]
+    },
+    {
+      "day": 362,
+      "category": "Types of Candy Passion",
+      "items": ["Collecting Wrappers", "Flavor Hunting", "Recipe Development", "Candy Making Hobby", "Tasting Adventures", "Sweet Tooth Satisfaction", "Confectionery Artistry"]
+    },
+    {
+      "day": 363,
+      "category": "Famous Fictional Wizards",
+      "items": ["Harry Potter", "Gandalf", "Merlin", "Dumbledore", "Doctor Strange", "Jafar", "The Wizard of Oz"]
+    },
+    {
+      "day": 364,
+      "category": "Types of Candy Dreams",
+      "items": ["Chocolate Rivers", "Gummy Forests", "Candy Castles", "Lollipop Gardens", "Marshmallow Clouds", "Caramel Waterfalls", "Sugar Crystal Caves"]
+    },
+    {
+      "day": 365,
+      "category": "Talent Competition Finales",
+      "items": ["American Idol Finale", "The Voice Finale", "America's Got Talent Finale", "Dancing with the Stars Finale", "The X Factor Finale", "So You Think You Can Dance Finale", "The Masked Singer Finale"]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Ranking Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Daily Ranking Quiz</h1>
+            <div class="date-info">
+                <span id="current-date"></span>
+                <span class="separator">•</span>
+                <span id="quiz-category"></span>
+            </div>
+        </header>
+
+        <main>
+            <div class="instructions">
+                <p>Drag and drop to rank these items from best to worst:</p>
+            </div>
+
+            <div id="ranking-container">
+                <ul id="sortable-list" class="sortable-list">
+                    <!-- Items will be dynamically added here -->
+                </ul>
+            </div>
+
+            <div class="submit-section">
+                <button id="submit-btn" class="submit-btn">Submit Rankings</button>
+                <div id="message" class="message"></div>
+            </div>
+
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Submitting your rankings...</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Your rankings are anonymous and will be used for data science research</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
