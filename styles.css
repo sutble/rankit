@@ -7,7 +7,7 @@
 body {
     font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
     background: #ffffff;
-    color: #374151;
+    color: #1a1a1b;
     line-height: 1.6;
     min-height: 100vh;
     display: flex;
@@ -17,7 +17,7 @@ body {
 .container {
     max-width: 500px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 8px;
     width: 100%;
     flex: 1;
     display: flex;
@@ -26,196 +26,205 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #d1d5db;
-    padding-bottom: 20px;
+    padding: 16px 0;
+    border-bottom: 1px solid #d3d6da;
+    margin-bottom: 24px;
 }
 
 h1 {
     font-size: 2.25rem;
-    color: #374151;
-    margin-bottom: 8px;
+    color: #1a1a1b;
+    margin-bottom: 4px;
     font-weight: 700;
-    letter-spacing: -0.025em;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
 }
 
 .date-info {
-    font-size: 0.875rem;
-    color: #6b7280;
+    font-size: 0.75rem;
+    color: #787c7e;
     font-weight: 400;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 .separator {
-    margin: 0 8px;
+    margin: 0 6px;
 }
 
 #quiz-category {
-    font-weight: 600;
-    color: #111827;
+    font-weight: 700;
+    color: #1a1a1b;
     font-size: 0.875rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding: 4px 12px;
-    background: #f3f4f6;
-    border-radius: 16px;
-    display: inline-block;
-    border: 1px solid #e5e7eb;
+    letter-spacing: 0.1em;
 }
 
 main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .instructions {
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     font-size: 0.875rem;
-    color: #6b7280;
+    color: #787c7e;
     font-weight: 400;
+    max-width: 350px;
 }
 
 #ranking-container {
-    background: #ffffff;
-    border-radius: 8px;
-    padding: 16px;
-    margin-bottom: 32px;
-    border: 1px solid #e5e7eb;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 24px;
 }
 
 .sortable-list {
     list-style: none;
-    gap: 8px;
+    gap: 5px;
     display: flex;
     flex-direction: column;
 }
 
 .sortable-item {
     background: #ffffff;
-    border: 2px solid #d1d5db;
-    border-radius: 4px;
-    padding: 16px;
+    border: 2px solid #d3d6da;
+    border-radius: 0;
+    padding: 16px 12px;
     cursor: grab;
     display: flex;
     align-items: center;
-    transition: all 0.15s ease;
+    transition: all 0.1s ease;
     user-select: none;
-    color: #374151;
+    color: #1a1a1b;
     position: relative;
+    height: 58px;
 }
 
 .sortable-item:hover {
-    border-color: #9ca3af;
-    background: #f9fafb;
+    border-color: #878a8c;
 }
 
 .sortable-item.dragging {
-    opacity: 0.6;
+    opacity: 0.8;
     cursor: grabbing;
-    transform: rotate(2deg);
+    transform: scale(1.02);
     z-index: 1000;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-color: #878a8c;
 }
 
 .sortable-item.drag-over {
-    border-color: #6366f1;
-    background: #eef2ff;
+    border-color: #6aaa64;
+    background: #f3f3f3;
 }
 
 .rank-number {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
-    background: #374151;
+    width: 32px;
+    height: 32px;
+    background: #787c7e;
     color: white;
-    border-radius: 4px;
+    border-radius: 0;
     margin-right: 12px;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.875rem;
     flex-shrink: 0;
+    text-transform: uppercase;
 }
 
 .item-text {
     flex: 1;
     font-size: 0.875rem;
-    font-weight: 500;
-    color: #374151;
+    font-weight: 700;
+    color: #1a1a1b;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 .drag-handle {
-    color: #9ca3af;
+    color: #878a8c;
     margin-left: 12px;
-    font-size: 1rem;
-    transition: color 0.15s ease;
+    font-size: 1.2rem;
+    transition: color 0.1s ease;
     cursor: grab;
     flex-shrink: 0;
 }
 
 .sortable-item:hover .drag-handle {
-    color: #6b7280;
+    color: #1a1a1b;
 }
 
 .submit-section {
     text-align: center;
+    margin-top: 8px;
 }
 
 .submit-btn {
-    background: #6366f1;
+    background: #6aaa64;
     color: white;
     border: none;
-    padding: 12px 24px;
+    padding: 14px 22px;
     font-size: 0.875rem;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 4px;
     cursor: pointer;
-    transition: all 0.15s ease;
+    transition: background-color 0.1s ease;
     text-transform: uppercase;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.1em;
+    font-family: inherit;
+    min-width: 120px;
 }
 
 .submit-btn:hover:not(:disabled) {
-    background: #4f46e5;
+    background: #5a9a54;
 }
 
 .submit-btn:active:not(:disabled) {
-    background: #4338ca;
-    transform: translateY(1px);
+    background: #4a8a44;
 }
 
 .submit-btn:disabled {
-    background: #9ca3af;
+    background: #787c7e;
     cursor: not-allowed;
 }
 
 .message {
     margin-top: 16px;
-    padding: 12px 16px;
+    padding: 16px;
     border-radius: 4px;
     font-size: 0.875rem;
     display: none;
-    font-weight: 500;
+    font-weight: 600;
+    text-align: center;
+    max-width: 350px;
+    border: 1px solid #d3d6da;
 }
 
 .message.success {
-    background: #dcfce7;
-    color: #166534;
-    border: 1px solid #bbf7d0;
+    background: #6aaa64;
+    color: white;
+    border-color: #6aaa64;
     display: block;
 }
 
 .message.error {
-    background: #fef2f2;
-    color: #dc2626;
-    border: 1px solid #fecaca;
+    background: #c9b458;
+    color: white;
+    border-color: #c9b458;
     display: block;
 }
 
 .message.info {
-    background: #eff6ff;
-    color: #2563eb;
-    border: 1px solid #bfdbfe;
+    background: #787c7e;
+    color: white;
+    border-color: #787c7e;
     display: block;
 }
 
@@ -225,13 +234,13 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.98);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    color: #374151;
+    color: #1a1a1b;
 }
 
 .loading.hidden {
@@ -239,19 +248,21 @@ main {
 }
 
 .spinner {
-    width: 32px;
-    height: 32px;
-    border: 3px solid #e5e7eb;
-    border-top: 3px solid #6366f1;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #d3d6da;
+    border-top: 3px solid #6aaa64;
     border-radius: 50%;
     animation: spin 1s linear infinite;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 
 .loading p {
     font-size: 0.875rem;
-    font-weight: 500;
-    color: #6b7280;
+    font-weight: 600;
+    color: #787c7e;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 @keyframes spin {
@@ -261,34 +272,46 @@ main {
 
 footer {
     text-align: center;
-    padding: 20px;
-    color: #9ca3af;
+    padding: 24px 8px;
+    color: #787c7e;
     font-size: 0.75rem;
-    border-top: 1px solid #e5e7eb;
-    margin-top: 32px;
+    border-top: 1px solid #d3d6da;
+    margin-top: 24px;
+    font-weight: 400;
 }
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
     .container {
-        padding: 16px;
+        padding: 0 12px;
     }
     
     h1 {
         font-size: 1.875rem;
     }
     
+    #ranking-container {
+        max-width: 320px;
+    }
+    
     .sortable-item {
-        padding: 14px;
+        padding: 14px 10px;
+        height: 52px;
     }
     
     .rank-number {
-        width: 24px;
-        height: 24px;
+        width: 28px;
+        height: 28px;
         font-size: 0.75rem;
+        margin-right: 10px;
     }
     
     .item-text {
+        font-size: 0.75rem;
+    }
+    
+    .instructions {
+        max-width: 300px;
         font-size: 0.8125rem;
     }
 }
@@ -298,22 +321,33 @@ footer {
         font-size: 1.5rem;
     }
     
+    #ranking-container {
+        max-width: 280px;
+    }
+    
     .sortable-item {
-        padding: 12px;
+        padding: 12px 8px;
+        height: 48px;
     }
     
     .rank-number {
-        width: 22px;
-        height: 22px;
-        margin-right: 10px;
-        font-size: 0.75rem;
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        font-size: 0.6875rem;
     }
     
     .item-text {
-        font-size: 0.8125rem;
+        font-size: 0.6875rem;
     }
     
     .drag-handle {
-        font-size: 0.875rem;
+        font-size: 1rem;
+        margin-left: 8px;
+    }
+    
+    .instructions {
+        max-width: 260px;
+        font-size: 0.75rem;
     }
 }
