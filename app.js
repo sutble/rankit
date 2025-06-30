@@ -97,7 +97,6 @@ function displayItems(items) {
     items.forEach((item, index) => {
         const li = document.createElement('li');
         li.className = 'sortable-item';
-        li.draggable = true;
         li.dataset.item = item;
         li.innerHTML = `
             <span class="rank-number">${index + 1}</span>
@@ -122,47 +121,15 @@ function updateRankNumbers() {
 // Setup drag and drop event listeners
 function setupEventListeners() {
     const list = document.getElementById('sortable-list');
-    let draggedItem = null;
     
-    // Drag start
-    list.addEventListener('dragstart', (e) => {
-        if (e.target.classList.contains('sortable-item')) {
-            draggedItem = e.target;
-            e.target.classList.add('dragging');
-        }
-    });
-    
-    // Drag end
-    list.addEventListener('dragend', (e) => {
-        if (e.target.classList.contains('sortable-item')) {
-            e.target.classList.remove('dragging');
-        }
-    });
-    
-    // Drag over
-    list.addEventListener('dragover', (e) => {
-        e.preventDefault();
-        const afterElement = getDragAfterElement(list, e.clientY);
-        
-        if (afterElement == null) {
-            list.appendChild(draggedItem);
-        } else {
-            list.insertBefore(draggedItem, afterElement);
-        }
-        
-        updateRankNumbers();
-    });
-    
-    // Prevent default dragover on items
-    list.addEventListener('dragover', (e) => {
-        if (e.target.classList.contains('sortable-item')) {
-            e.target.classList.add('drag-over');
-        }
-    });
-    
-    list.addEventListener('dragleave', (e) => {
-        if (e.target.classList.contains('sortable-item')) {
-            e.target.classList.remove('drag-over');
+    // Initialize SortableJS - works on both desktop and mobile!
+    Sortable.create(list, {
+        animation: 150,
+        ghostClass: 'sortable-ghost',
+        chosenClass: 'sortable-chosen',
+        dragClass: 'sortable-drag',
+        onEnd: function() {
+            updateRankNumbers();
         }
     });
     
@@ -170,21 +137,6 @@ function setupEventListeners() {
     document.getElementById('submit-btn').addEventListener('click', submitRankings);
 }
 
-// Get the element after which the dragged element should be inserted
-function getDragAfterElement(container, y) {
-    const draggableElements = [...container.querySelectorAll('.sortable-item:not(.dragging)')];
-    
-    return draggableElements.reduce((closest, child) => {
-        const box = child.getBoundingClientRect();
-        const offset = y - box.top - box.height / 2;
-        
-        if (offset < 0 && offset > closest.offset) {
-            return { offset: offset, element: child };
-        } else {
-            return closest;
-        }
-    }, { offset: Number.NEGATIVE_INFINITY }).element;
-}
 
 // Generate or retrieve session ID
 function getOrCreateSessionId() {

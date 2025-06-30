@@ -109,18 +109,17 @@ main {
     border-color: #565758;
 }
 
-.sortable-item.dragging {
-    opacity: 0.8;
-    cursor: grabbing;
-    transform: scale(1.02);
-    z-index: 1000;
-    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.15);
-    border-color: #565758;
+.sortable-ghost {
+    opacity: 0.4;
 }
 
-.sortable-item.drag-over {
-    border-color: #6aaa64;
-    background: #1a2a1a;
+.sortable-chosen {
+    cursor: grabbing;
+}
+
+.sortable-drag {
+    transform: rotate(5deg);
+    opacity: 0.8;
 }
 
 .rank-number {
