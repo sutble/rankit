@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
-    background: #ffffff;
-    color: #1a1a1b;
+    background: #000000;
+    color: #ffffff;
     line-height: 1.6;
     min-height: 100vh;
     display: flex;
@@ -27,13 +27,13 @@ body {
 header {
     text-align: center;
     padding: 16px 0;
-    border-bottom: 1px solid #d3d6da;
+    border-bottom: 1px solid #3a3a3c;
     margin-bottom: 24px;
 }
 
 h1 {
     font-size: 2.25rem;
-    color: #1a1a1b;
+    color: #ffffff;
     margin-bottom: 4px;
     font-weight: 700;
     letter-spacing: 0.01em;
@@ -42,7 +42,7 @@ h1 {
 
 .date-info {
     font-size: 0.75rem;
-    color: #787c7e;
+    color: #818384;
     font-weight: 400;
     margin-bottom: 4px;
     text-transform: uppercase;
@@ -55,7 +55,7 @@ h1 {
 
 #quiz-category {
     font-weight: 700;
-    color: #1a1a1b;
+    color: #ffffff;
     font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -72,7 +72,7 @@ main {
     text-align: center;
     margin-bottom: 16px;
     font-size: 0.875rem;
-    color: #787c7e;
+    color: #818384;
     font-weight: 400;
     max-width: 350px;
 }
@@ -91,8 +91,8 @@ main {
 }
 
 .sortable-item {
-    background: #ffffff;
-    border: 2px solid #d3d6da;
+    background: #121213;
+    border: 2px solid #3a3a3c;
     border-radius: 0;
     padding: 16px 12px;
     cursor: grab;
@@ -100,13 +100,13 @@ main {
     align-items: center;
     transition: all 0.1s ease;
     user-select: none;
-    color: #1a1a1b;
+    color: #ffffff;
     position: relative;
     height: 58px;
 }
 
 .sortable-item:hover {
-    border-color: #878a8c;
+    border-color: #565758;
 }
 
 .sortable-item.dragging {
@@ -114,13 +114,13 @@ main {
     cursor: grabbing;
     transform: scale(1.02);
     z-index: 1000;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    border-color: #878a8c;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.15);
+    border-color: #565758;
 }
 
 .sortable-item.drag-over {
     border-color: #6aaa64;
-    background: #f3f3f3;
+    background: #1a2a1a;
 }
 
 .rank-number {
@@ -129,7 +129,7 @@ main {
     justify-content: center;
     width: 32px;
     height: 32px;
-    background: #787c7e;
+    background: #818384;
     color: white;
     border-radius: 0;
     margin-right: 12px;
@@ -143,13 +143,13 @@ main {
     flex: 1;
     font-size: 0.875rem;
     font-weight: 700;
-    color: #1a1a1b;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
 .drag-handle {
-    color: #878a8c;
+    color: #565758;
     margin-left: 12px;
     font-size: 1.2rem;
     transition: color 0.1s ease;
@@ -158,7 +158,7 @@ main {
 }
 
 .sortable-item:hover .drag-handle {
-    color: #1a1a1b;
+    color: #818384;
 }
 
 .submit-section {
@@ -234,13 +234,13 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.98);
+    background: rgba(0, 0, 0, 0.98);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    color: #1a1a1b;
+    color: #ffffff;
 }
 
 .loading.hidden {
@@ -250,7 +250,7 @@ main {
 .spinner {
     width: 40px;
     height: 40px;
-    border: 3px solid #d3d6da;
+    border: 3px solid #3a3a3c;
     border-top: 3px solid #6aaa64;
     border-radius: 50%;
     animation: spin 1s linear infinite;
@@ -260,7 +260,7 @@ main {
 .loading p {
     font-size: 0.875rem;
     font-weight: 600;
-    color: #787c7e;
+    color: #818384;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
@@ -273,9 +273,9 @@ main {
 footer {
     text-align: center;
     padding: 24px 8px;
-    color: #787c7e;
+    color: #818384;
     font-size: 0.75rem;
-    border-top: 1px solid #d3d6da;
+    border-top: 1px solid #3a3a3c;
     margin-top: 24px;
     font-weight: 400;
 }
